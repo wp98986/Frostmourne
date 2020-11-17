@@ -48,11 +48,11 @@ const defaultCss = ['/jigsaw.css'];
 
 const contextMap = {
   boss: {
-    title: '德尔金',
+    title: '优品配',
     favicon: '/favicon.png',
   },
   site: {
-    title: '德尔金',
+    title: '优品配',
     favicon: '/favicon.png',
     // meiqia: { js: '/meiqia.js' },
   },
