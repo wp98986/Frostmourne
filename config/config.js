@@ -160,7 +160,7 @@ export default {
       cookieDomainRewrite: 'localhost',
     },
     '/boss': {
-      target: 'http://boss.nature-home.cn',,
+      target: 'http://boss.nature-home.cn',
       changeOrigin: true,
       cookieDomainRewrite: 'localhost',
     },
