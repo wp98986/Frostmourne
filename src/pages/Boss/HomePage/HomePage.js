@@ -58,7 +58,7 @@ const HomePage = props => {
     };
 
     return (
-      <Form form={form1} {...formItemLayout} name="basic">
+      <Form form={form1} {...formItemLayout}>
         <Row gutter={{ md: 8, lg: 24, xl: 48 }}>
           <Col md={8} sm={24}>
             <FormItem label="商品标题" name="goodsName">
