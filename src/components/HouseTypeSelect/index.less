@@ -1,0 +1,69 @@
+:global {
+  .selectBox {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .selectItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 8px 10px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    min-width: 60px;
+    text-align: center;
+    box-sizing: content-box;
+    line-height: 1;
+    margin: 9px 10px 11px 0;
+    border: 1px solid rgba(191, 191, 191, 1);
+    color: #bfbfbf;
+    font-size: 14px;
+  }
+
+  .selectItemActive {
+    border-color: #cf0000;
+    color: #cf0000;
+  }
+
+  .selectItemLabel {
+    display: none;
+    color: transparent;
+  }
+  .selectValueText {
+    color: #646464;
+  }
+  .selectColor {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    font-size: 12px;
+    color: #fff;
+  }
+  .selectColorText {
+    width: 100%;
+    color: #999;
+    margin-top: 2px;
+    visibility: hidden;
+  }
+
+  .selectColorContainer:hover .selectColorText {
+    visibility: visible;
+  }
+}
+
+.iconContainer {
+  position: relative;
+  .iconCheck {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    width: 60% !important;
+  }
+}
+
+.whiteColor {
+  border: 1px solid #ccc;
+}

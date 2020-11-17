@@ -1,0 +1,261 @@
+@import '~antd/lib/style/themes/default.less';
+
+.main {
+  width: 368px;
+  margin: 0 auto;
+  @media screen and (max-width: @screen-sm) {
+    width: 95%;
+  }
+
+  .icon {
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.2);
+    margin-left: 16px;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: color 0.3s;
+
+    &:hover {
+      color: @primary-color;
+    }
+  }
+}
+
+.vertificate {
+  position: relative;
+  z-index: 1;
+}
+
+.extra {
+  width: 100%;
+  text-align: right;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+:global {
+  .sliderContainer {
+    width: 100%;
+  }
+}
+
+.newLoginContainer {
+  // position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  .newLoginCard {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 153px;
+    .newLoginContent {
+      // position: absolute;
+      width: 540px;
+      height: 620px;
+      background-color: rgba(255, 255, 255, 0.6);
+      border-radius: 45px;
+      padding: 22px;
+      overflow: hidden;
+      box-shadow: 0 0 58px 1px rgba(67, 73, 193, 0.33);
+      // @media screen and (max-width: @screen-xl) {
+      //   width: 600px;
+      //   min-height: 500px;
+      // }
+      .deerLogo {
+        height: 158px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .newLoginFormItem {
+        // border: 1px solid red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .newLoginFormItemInputContainer {
+          position: relative;
+          display: flex;
+          align-items: center;
+          .newLoginFormItemInputIcon {
+            width: 47px;
+            height: 46px;
+            font-size: 46px;
+            color: #a58877;
+            position: absolute;
+            left: 15px;
+          }
+          .newLoginFormItemInput {
+            width: 414px;
+            height: 77px;
+            background: rgba(207, 169, 114, 0.1);
+            border-radius: 39px;
+            padding-left: 80px;
+            border: none;
+            outline: none;
+            font-size: 16px;
+            &:active {
+              border: none;
+              outline: none;
+            }
+          }
+        }
+      }
+      .newLoginBtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        button {
+          width: 414px;
+          height: 77px;
+          text-align: center;
+          display: flex;
+          background-color: #b79c74;
+          border-radius: 39px;
+          justify-content: center;
+          align-items: center;
+          letter-spacing: 20px;
+          color: #fff;
+          font-size: 36px;
+        }
+      }
+      .checkVerContainer {
+        display: flex;
+        justify-content: center;
+      }
+      .newLoginCheck {
+        margin: 0 auto;
+        margin-top: 25px;
+        width: 414px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 18px;
+        .forgetPwd {
+          // color: #6d6450;
+          font-size: 14px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+.pwdModal {
+  :global {
+    .ant-modal {
+      border-radius: 10px;
+      overflow: hidden;
+      padding: 32px;
+      padding-bottom: 46px;
+      background-color: #fff;
+      background-color: rgba(255, 255, 255, 0.8);
+      // opacity: 0.8;
+      .ant-modal-content {
+        box-shadow: none;
+        background-color: rgba(255, 255, 255, 0);
+        // display: none;
+        .ant-modal-body {
+          padding: 0;
+        }
+      }
+    }
+  }
+  .pwdModalTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    border-bottom: 1px dashed #aaa;
+    color: #7f7f7f;
+  }
+}
+
+.modifyPwdForm {
+  padding-top: 20px;
+  .modifyPwdFormItem {
+    // border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .modifyPwdFormItemInputContainer {
+      position: relative;
+      display: flex;
+      align-items: center;
+      input::-webkit-input-placeholder {
+        /* WebKit browsers 适配谷歌 */
+        color: #d7d7d7;
+      }
+      input:-moz-placeholder {
+        /* Mozilla Firefox 4 to 18 适配火狐 */
+        color: #d7d7d7;
+      }
+      input::-moz-placeholder {
+        /* Mozilla Firefox 19+ 适配火狐 */
+        color: #d7d7d7;
+      }
+      input:-ms-input-placeholder {
+        /* Internet Explorer 10+  适配ie */
+        color: #d7d7d7;
+      }
+      .modifyPwdFormItemInputIcon {
+        width: 47px;
+        // height: 60px;
+        font-size: 34px;
+        color: #ccc;
+        position: absolute;
+        left: 8px;
+        z-index: 10;
+      }
+      .modifyPwdFormItemInput {
+        width: 450px;
+        height: 60px;
+        background: rgba(255, 255, 255, 1);
+        border-radius: 10px;
+        padding-left: 60px;
+        border: none;
+        outline: none;
+        font-size: 16px;
+      }
+    }
+    .modifyPwdFormItemCode {
+      display: flex;
+      width: 450px;
+      .modifyPwdFormItemInputCode {
+        width: 350px;
+      }
+      .modifyPwdFormItemCodeBtn {
+        width: 150px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+        border-radius: 10px;
+      }
+    }
+  }
+
+  .modifyPwdBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    button {
+      width: 450px;
+      height: 64px;
+      text-align: center;
+      display: flex;
+      background-color: #b79c74;
+      border-radius: 10px;
+      justify-content: center;
+      align-items: center;
+      letter-spacing: 20px;
+      color: #fff;
+      font-size: 36px;
+    }
+  }
+}

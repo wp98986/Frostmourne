@@ -1,0 +1,6 @@
+/functions/mock
+/functions/matchMock.js
+**/*.ejs
+qrcode.js
+run-tests.js
+layout.e2e.js

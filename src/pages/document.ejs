@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh">
+<!-- <html lang="zh" debug=true> -->
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title><%=context.title%></title>
+  <link rel="icon" href="<%=context.favicon%>" type="image/x-icon">
+  <%if(context.config.externals.css){%>
+    <% for(var i = 0;i < context.config.externals.css.length;i++) {%>
+        <link rel="stylesheet" type="text/css" href="<%=context.config.externals.css[i]%>"/>
+    <% } %>
+  <% } %>
+  <!-- <%if(context.config.externals.mta){%>
+    <script>
+      var mtaConfig = JSON.parse('<%- JSON.stringify(context.config.externals.mta)%>');
+    </script>
+  <% } %>
+  <%if(context.config.externals.meiqia){%>
+      <script src="<%=context.config.externals.meiqia.js%>"></script>
+  <% } %> -->
+  <%if(context.config.externals.js){%>
+    <% for(var i = 0;i < context.config.externals.js.length;i++) {%>
+        <script src="<%=context.config.externals.js[i]%>"></script>
+    <% } %>
+  <% } %>
+</head>
+<body>
+  <div id="root"></div>
+</body>
+</html>

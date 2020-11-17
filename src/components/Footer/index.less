@@ -1,0 +1,69 @@
+@import '~antd/lib/style/themes/default.less';
+
+.container {
+  background-color: #323232;
+  width: 100%;
+  // display: inline-block;
+  // padding: 60px 300px;
+  .footer {
+    width: 1440px;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+    img {
+      width: 100%;
+    }
+    .footerItem {
+      float: left;
+      width: 14.1666%;
+      text-align: center;
+      margin-right: 3%;
+      color: #f3f3f3;
+      letter-spacing: 2px;
+      font-size: 16px;
+      &:last-child {
+        margin-right: 0;
+      }
+      span {
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+        background-image: url('../../assets/business/fsprite.png');
+        background-size: 343px 200px;
+      }
+      .footerIcon1 {
+        background-position: 0 0;
+      }
+      .footerIcon2 {
+        background-position: 224px 0;
+      }
+      .footerIcon3 {
+        background-position: 450px 0;
+      }
+      .footerIcon4 {
+        background-position: 0 100px;
+      }
+      .footerIcon5 {
+        background-position: 224px 100px;
+      }
+      .footerIcon6 {
+        background-position: 450px 100px;
+      }
+      p {
+        margin-top: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: @screen-md) {
+  .container {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .container {
+    padding: 0 calc(50vw - 600px);
+  }
+}

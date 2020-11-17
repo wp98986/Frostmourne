@@ -1,0 +1,1647 @@
+[
+{
+  "goodsInfoId": 7475,
+  "goodsId": 2732,
+  "goodsInfoItemNo": "201809041402091",
+  "productName": "“逸·生活”-三人位沙发(灰绿)",
+  "subtitle": "",
+  "goodsInfoAdded": "1",
+  "goodsInfoAddedTime": null,
+  "goodsInfoStock": 0,
+  "goodsInfoPreferPrice": 3081.00,
+  "goodsInfoCostPrice": 333.00,
+  "goodsInfoMarketPrice": 5000.00,
+  "goodsInfoWeight": 1.00,
+  "goodsInfoImgId": "http://ruanzhuang-mall.oss-cn-hangzhou.aliyuncs.com/20180904/20180904140229ff8d819a0ef4417ebe596be645645b03.jpg@!thumbnail-rule-160",
+  "goodsInfoDelflag": "0",
+  "specVo": [
+  {
+    "releSpecDetailId": 6324,
+    "goodsInfoId": 7475,
+    "specValueRemark": "灰绿",
+    "spec":
+    {
+      "specId": 579,
+      "specName": "颜色",
+      "specRemark": "颜色（沙发）",
+      "specNickname": "颜色（沙发）",
+      "specShowtype": "0",
+      "specShowmode": "1",
+      "specDetails": [
+      {
+        "specDetailId": 2141,
+        "specId": 579,
+        "specDetailName": "浅棕",
+        "specDetailNickname": null,
+        "specDetailImg": null,
+        "specDetailSort": 1,
+        "specDetailDelflag": "0",
+        "specDetailCreateName": "13724920715",
+        "specDetailCreateTime": 1535678983000,
+        "specDetailModifiedName": "admin",
+        "specDetailModifiedTime": 1539847476000,
+        "specDetailDelName": null,
+        "specDetailDelTime": null
+      },
+      {
+        "specDetailId": 2142,
+        "specId": 579,
+        "specDetailName": "灰蓝",
+        "specDetailNickname": null,
+        "specDetailImg": null,
+        "specDetailSort": 2,
+        "specDetailDelflag": "0",
+        "specDetailCreateName": "13724920715",
+        "specDetailCreateTime": 1535679012000,
+        "specDetailModifiedName": "admin",
+        "specDetailModifiedTime": 1539847476000,
+        "specDetailDelName": null,
+        "specDetailDelTime": null
+      },
+      {
+        "specDetailId": 2143,
+        "specId": 579,
+        "specDetailName": "深蓝",
+        "specDetailNickname": null,
+        "specDetailImg": null,
+        "specDetailSort": 3,
+        "specDetailDelflag": "0",
+        "specDetailCreateName": "13724920715",
+        "specDetailCreateTime": 1535679012000,
+        "specDetailModifiedName": "admin",
+        "specDetailModifiedTime": 1539847476000,
+        "specDetailDelName": null,
+        "specDetailDelTime": null
+      },
+      {
+        "specDetailId": 2144,
+        "specId": 579,
+        "specDetailName": "白色",
+        "specDetailNickname": null,
+        "specDetailImg": null,
+        "specDetailSort": 4,
+        "specDetailDelflag": "0",
+        "specDetailCreateName": "13724920715",
+        "specDetailCreateTime": 1535679012000,
+        "specDetailModifiedName": "admin",
+        "specDetailModifiedTime": 1539847476000,
+        "specDetailDelName": null,
+        "specDetailDelTime": null
+      },
+      {
+        "specDetailId": 2146,
+        "specId": 579,
+        "specDetailName": "灰色",
+        "specDetailNickname": null,
+        "specDetailImg": null,
+        "specDetailSort": 5,
+        "specDetailDelflag": "0",
+        "specDetailCreateName": "admin",
+        "specDetailCreateTime": 1539847476000,
+        "specDetailModifiedName": null,
+        "specDetailModifiedTime": null,
+        "specDetailDelName": null,
+        "specDetailDelTime": null
+      }]
+    },
+    "goodsSpecDetail":
+    {
+      "specDetailId": 2141,
+      "specId": 579,
+      "specDetailName": "浅棕",
+      "specDetailNickname": null,
+      "specDetailImg": null,
+      "specDetailSort": 1,
+      "specDetailDelflag": "0",
+      "specDetailCreateName": "13724920715",
+      "specDetailCreateTime": 1535678983000,
+      "specDetailModifiedName": "admin",
+      "specDetailModifiedTime": 1539847476000,
+      "specDetailDelName": null,
+      "specDetailDelTime": null
+    }
+  }],
+  "openSpecVo": [
+  {
+    "id": 2456,
+    "goodsId": 2732,
+    "specId": 579,
+    "delFlag": "0",
+    "spec":
+    {
+      "specId": 579,
+      "specName": "颜色",
+      "specRemark": "颜色（沙发）",
+      "specNickname": "颜色（沙发）",
+      "specShowtype": "0",
+      "specShowmode": "1",
+      "specDelflag": "0",
+      "specCreateName": "13724920715",
+      "specCreateTime": 1535678950000,
+      "specModifiedName": "admin",
+      "specModifiedTime": 1539847476000,
+      "specDelName": null,
+      "specDelTime": null
+    },
+    "specValList": [
+    {
+      "id": 5052,
+      "goodsId": 2732,
+      "specId": 579,
+      "specValueId": 2141,
+      "specDetail": null,
+      "delFlag": "0",
+      "imgUrl": "http://ruanzhuang-mall.oss-cn-hangzhou.aliyuncs.com/20180904/20180904135850f6ec866027a442b7b82ff53c1d698a93.jpg@!thumbnail-rule-56",
+      "specValueRemark": "灰绿"
+    },
+    {
+      "id": 5053,
+      "goodsId": 2732,
+      "specId": 579,
+      "specValueId": 2142,
+      "specDetail": null,
+      "delFlag": "0",
+      "imgUrl": "",
+      "specValueRemark": "灰玫瑰"
+    },
+    {
+      "id": 5054,
+      "goodsId": 2732,
+      "specId": 579,
+      "specValueId": 2143,
+      "specDetail": null,
+      "delFlag": "0",
+      "imgUrl": "http://ruanzhuang-mall.oss-cn-hangzhou.aliyuncs.com/20180904/201809041358560108ca80897c4ebe82c3a1237f960582.jpg@!thumbnail-rule-56",
+      "specValueRemark": "浅灰"
+    },
+    {
+      "id": 5055,
+      "goodsId": 2732,
+      "specId": 579,
+      "specValueId": 2144,
+      "specDetail": null,
+      "delFlag": "0",
+      "imgUrl": "http://ruanzhuang-mall.oss-cn-hangzhou.aliyuncs.com/20180904/201809041358594d4558e4475a4945b2fc99164cb424b6.jpg@!thumbnail-rule-56",
+      "specValueRemark": "深灰"
+    }]
+  }],
+  "goodsReleParamVos": [
+  {
+    "releParamId": 33381,
+    "goodsId": 2732,
+    "param":
+    {
+      "paramId": 11971,
+      "typeId": 1507,
+      "paramName": "品牌",
+      "paramNickname": "品牌",
+      "paramDelflag": "0",
+      "paramCreateName": "13724920715",
+      "paramCreateTime": 1535678304000,
+      "paramModifiedName": "amin1",
+      "paramModifiedTime": null,
+      "paramDelName": null,
+      "paramDelTime": null
+    },
+    "paramValue": "艾特娜"
+  },
+  {
+    "releParamId": 33382,
+    "goodsId": 2732,
+    "param":
+    {
+      "paramId": 11972,
+      "typeId": 1507,
+      "paramName": "功能",
+      "paramNickname": "功能",
+      "paramDelflag": "0",
+      "paramCreateName": "13724920715",
+      "paramCreateTime": 1535678304000,
+      "paramModifiedName": "amin1",
+      "paramModifiedTime": null,
+      "paramDelName": null,
+      "paramDelTime": null
+    },
+    "paramValue": "坐、倚靠、"
+  },
+  {
+    "releParamId": 33383,
+    "goodsId": 2732,
+    "param":
+    {
+      "paramId": 11973,
+      "typeId": 1507,
+      "paramName": "产地",
+      "paramNickname": "产地",
+      "paramDelflag": "0",
+      "paramCreateName": "13724920715",
+      "paramCreateTime": 1535678304000,
+      "paramModifiedName": "amin1",
+      "paramModifiedTime": null,
+      "paramDelName": null,
+      "paramDelTime": null
+    },
+    "paramValue": "香港兴利集团"
+  },
+  {
+    "releParamId": 33384,
+    "goodsId": 2732,
+    "param":
+    {
+      "paramId": 11974,
+      "typeId": 1507,
+      "paramName": "材质",
+      "paramNickname": "材质",
+      "paramDelflag": "0",
+      "paramCreateName": "13724920715",
+      "paramCreateTime": 1535678304000,
+      "paramModifiedName": "amin1",
+      "paramModifiedTime": null,
+      "paramDelName": null,
+      "paramDelTime": null
+    },
+    "paramValue": "座垫：纯海绵"
+  },
+  {
+    "releParamId": 33385,
+    "goodsId": 2732,
+    "param":
+    {
+      "paramId": 11975,
+      "typeId": 1507,
+      "paramName": "编码/型号",
+      "paramNickname": "编码/型号",
+      "paramDelflag": "0",
+      "paramCreateName": "13724920715",
+      "paramCreateTime": 1535678304000,
+      "paramModifiedName": "amin1",
+      "paramModifiedTime": null,
+      "paramDelName": null,
+      "paramDelTime": null
+    },
+    "paramValue": "0484B"
+  },
+  {
+    "releParamId": 33386,
+    "goodsId": 2732,
+    "param":
+    {
+      "paramId": 11976,
+      "typeId": 1507,
+      "paramName": "风格",
+      "paramNickname": "风格",
+      "paramDelflag": "0",
+      "paramCreateName": "13724920715",
+      "paramCreateTime": 1535678304000,
+      "paramModifiedName": "amin1",
+      "paramModifiedTime": null,
+      "paramDelName": null,
+      "paramDelTime": null
+    },
+    "paramValue": "现代简约"
+  },
+  {
+    "releParamId": 33387,
+    "goodsId": 2732,
+    "param":
+    {
+      "paramId": 11977,
+      "typeId": 1507,
+      "paramName": "规格",
+      "paramNickname": "规格",
+      "paramDelflag": "0",
+      "paramCreateName": "13724920715",
+      "paramCreateTime": 1535678304000,
+      "paramModifiedName": "amin1",
+      "paramModifiedTime": null,
+      "paramDelName": null,
+      "paramDelTime": null
+    },
+    "paramValue": "2110x840x815"
+  },
+  {
+    "releParamId": 33388,
+    "goodsId": 2732,
+    "param":
+    {
+      "paramId": 11978,
+      "typeId": 1507,
+      "paramName": "材质",
+      "paramNickname": "材质",
+      "paramDelflag": "0",
+      "paramCreateName": "13724920715",
+      "paramCreateTime": 1535678304000,
+      "paramModifiedName": "amin1",
+      "paramModifiedTime": null,
+      "paramDelName": null,
+      "paramDelTime": null
+    },
+    "paramValue": ""
+  },
+  {
+    "releParamId": 33389,
+    "goodsId": 2732,
+    "param":
+    {
+      "paramId": 11979,
+      "typeId": 1507,
+      "paramName": "颜色",
+      "paramNickname": "颜色",
+      "paramDelflag": "0",
+      "paramCreateName": "13724920715",
+      "paramCreateTime": 1535678304000,
+      "paramModifiedName": "amin1",
+      "paramModifiedTime": null,
+      "paramDelName": null,
+      "paramDelTime": null
+    },
+    "paramValue": "灰绿/灰玫瑰/浅灰"
+  }],
+  "goodsInfoCreateTime": null,
+  "imageList": [
+  {
+    "goodsImgId": 15344,
+    "goodsInfoId": 7475,
+    "imageInName": "http://ruanzhuang-mall.oss-cn-hangzhou.aliyuncs.com/20180904/20180904140229ff8d819a0ef4417ebe596be645645b03.jpg@!thumbnail-rule-352",
+    "imageThumName": "http://ruanzhuang-mall.oss-cn-hangzhou.aliyuncs.com/20180904/20180904140229ff8d819a0ef4417ebe596be645645b03.jpg@!thumbnail-rule-352",
+    "imageBigName": "http://ruanzhuang-mall.oss-cn-hangzhou.aliyuncs.com/20180904/20180904140229ff8d819a0ef4417ebe596be645645b03.jpg@!thumbnail-rule-352",
+    "imageArtworkName": "http://ruanzhuang-mall.oss-cn-hangzhou.aliyuncs.com/20180904/20180904140229ff8d819a0ef4417ebe596be645645b03.jpg",
+    "goodsImgSort": 1,
+    "sortNo": null,
+    "goodsImgDelflag": "0",
+    "goodsImgCreateName": "13724920715",
+    "goodsImgCreateTime": 1536041097000,
+    "goodsImgModifiedName": null,
+    "goodsImgModifiedTime": null,
+    "goodsImgDelName": null,
+    "goodsImgDelTime": null,
+    "mainImage": null
+  },
+  {
+    "goodsImgId": 15348,
+    "goodsInfoId": 7475,
+    "imageInName": "http://ruanzhuang-mall.oss-cn-hangzhou.aliyuncs.com/20180904/201809041407533ba1ec783ee74346a164a9245fa78903.jpg@!thumbnail-rule-160",
+    "imageThumName": "http://ruanzhuang-mall.oss-cn-hangzhou.aliyuncs.com/20180904/201809041407533ba1ec783ee74346a164a9245fa78903.jpg@!thumbnail-rule-56",
+    "imageBigName": "http://ruanzhuang-mall.oss-cn-hangzhou.aliyuncs.com/20180904/201809041407533ba1ec783ee74346a164a9245fa78903.jpg@!thumbnail-rule-352",
+    "imageArtworkName": "http://ruanzhuang-mall.oss-cn-hangzhou.aliyuncs.com/20180904/201809041407533ba1ec783ee74346a164a9245fa78903.jpg",
+    "goodsImgSort": 0,
+    "sortNo": null,
+    "goodsImgDelflag": "0",
+    "goodsImgCreateName": "13724920715",
+    "goodsImgCreateTime": 1536041276000,
+    "goodsImgModifiedName": null,
+    "goodsImgModifiedTime": null,
+    "goodsImgDelName": null,
+    "goodsImgDelTime": null,
+    "mainImage": null
+  }],
+  "goods": null,
+  "commentUtilBean": null,
+  "thirdId": 0,
+  "thirdName": "BOSS",
+  "isThird": "0",
+  "suitBuy": 0,
+  "suitIds": null,
+  "catId": null,
+  "brandId": null,
+  "isMailBay": 0,
+  "showMobile": "1",
+  "showList": null,
+  "isCustomerDiscount": "0",
+  "marketingId": null,
+  "groupProductNum": null,
+  "productWares": [
+  {
+    "id": 14682,
+    "productId": 7475,
+    "wareId": 86,
+    "wareName": null,
+    "wareStock": 11,
+    "warePrice": 3081.00,
+    "delFlag": "0"
+  }],
+  "fictitiousSalesCount": null,
+  "videoUrl": "",
+  "videoType": "2"
+},
+{
+  "goodsInfoId": 7476,
+  "goodsId": 2732,
+  "goodsInfoItemNo": "201809041402092",
+  "productName": "“逸·生活”-三人位沙发(灰玫瑰)",
+  "subtitle": "",
+  "goodsInfoAdded": "1",
+  "goodsInfoAddedTime": null,
+  "goodsInfoStock": 0,
+  "goodsInfoPreferPrice": 3081.00,
+  "goodsInfoCostPrice": null,
+  "goodsInfoMarketPrice": 13333.00,
+  "goodsInfoWeight": 1.00,
+  "goodsInfoImgId": "http://ruanzhuang-mall.oss-cn-hangzhou.aliyuncs.com/20180904/201809041404497ae9ea78e45e46999b3a77fd364278f4.jpg@!thumbnail-rule-160",
+  "goodsInfoDelflag": "0",
+  "specVo": [
+  {
+    "releSpecDetailId": 6325,
+    "goodsInfoId": 7476,
+    "specValueRemark": "灰玫瑰",
+    "spec":
+    {
+      "specId": 579,
+      "specName": "颜色",
+      "specRemark": "颜色（沙发）",
+      "specNickname": "颜色（沙发）",
+      "specShowtype": "0",
+      "specShowmode": "1",
+      "specDetails": [
+      {
+        "specDetailId": 2141,
+        "specId": 579,
+        "specDetailName": "浅棕",
+        "specDetailNickname": null,
+        "specDetailImg": null,
+        "specDetailSort": 1,
+        "specDetailDelflag": "0",
+        "specDetailCreateName": "13724920715",
+        "specDetailCreateTime": 1535678983000,
+        "specDetailModifiedName": "admin",
+        "specDetailModifiedTime": 1539847476000,
+        "specDetailDelName": null,
+        "specDetailDelTime": null
+      },
+      {
+        "specDetailId": 2142,
+        "specId": 579,
+        "specDetailName": "灰蓝",
+        "specDetailNickname": null,
+        "specDetailImg": null,
+        "specDetailSort": 2,
+        "specDetailDelflag": "0",
+        "specDetailCreateName": "13724920715",
+        "specDetailCreateTime": 1535679012000,
+        "specDetailModifiedName": "admin",
+        "specDetailModifiedTime": 1539847476000,
+        "specDetailDelName": null,
+        "specDetailDelTime": null
+      },
+      {
+        "specDetailId": 2143,
+        "specId": 579,
+        "specDetailName": "深蓝",
+        "specDetailNickname": null,
+        "specDetailImg": null,
+        "specDetailSort": 3,
+        "specDetailDelflag": "0",
+        "specDetailCreateName": "13724920715",
+        "specDetailCreateTime": 1535679012000,
+        "specDetailModifiedName": "admin",
+        "specDetailModifiedTime": 1539847476000,
+        "specDetailDelName": null,
+        "specDetailDelTime": null
+      },
+      {
+        "specDetailId": 2144,
+        "specId": 579,
+        "specDetailName": "白色",
+        "specDetailNickname": null,
+        "specDetailImg": null,
+        "specDetailSort": 4,
+        "specDetailDelflag": "0",
+        "specDetailCreateName": "13724920715",
+        "specDetailCreateTime": 1535679012000,
+        "specDetailModifiedName": "admin",
+        "specDetailModifiedTime": 1539847476000,
+        "specDetailDelName": null,
+        "specDetailDelTime": null
+      },
+      {
+        "specDetailId": 2146,
+        "specId": 579,
+        "specDetailName": "灰色",
+        "specDetailNickname": null,
+        "specDetailImg": null,
+        "specDetailSort": 5,
+        "specDetailDelflag": "0",
+        "specDetailCreateName": "admin",
+        "specDetailCreateTime": 1539847476000,
+        "specDetailModifiedName": null,
+        "specDetailModifiedTime": null,
+        "specDetailDelName": null,
+        "specDetailDelTime": null
+      }]
+    },
+    "goodsSpecDetail":
+    {
+      "specDetailId": 2142,
+      "specId": 579,
+      "specDetailName": "灰蓝",
+      "specDetailNickname": null,
+      "specDetailImg": null,
+      "specDetailSort": 2,
+      "specDetailDelflag": "0",
+      "specDetailCreateName": "13724920715",
+      "specDetailCreateTime": 1535679012000,
+      "specDetailModifiedName": "admin",
+      "specDetailModifiedTime": 1539847476000,
+      "specDetailDelName": null,
+      "specDetailDelTime": null
+    }
+  }],
+  "openSpecVo": [
+  {
+    "id": 2456,
+    "goodsId": 2732,
+    "specId": 579,
+    "delFlag": "0",
+    "spec":
+    {
+      "specId": 579,
+      "specName": "颜色",
+      "specRemark": "颜色（沙发）",
+      "specNickname": "颜色（沙发）",
+      "specShowtype": "0",
+      "specShowmode": "1",
+      "specDelflag": "0",
+      "specCreateName": "13724920715",
+      "specCreateTime": 1535678950000,
+      "specModifiedName": "admin",
+      "specModifiedTime": 1539847476000,
+      "specDelName": null,
+      "specDelTime": null
+    },
+    "specValList": [
+    {
+      "id": 5052,
+      "goodsId": 2732,
+      "specId": 579,
+      "specValueId": 2141,
+      "specDetail": null,
+      "delFlag": "0",
+      "imgUrl": "http://ruanzhuang-mall.oss-cn-hangzhou.aliyuncs.com/20180904/20180904135850f6ec866027a442b7b82ff53c1d698a93.jpg@!thumbnail-rule-56",
+      "specValueRemark": "灰绿"
+    },
+    {
+      "id": 5053,
+      "goodsId": 2732,
+      "specId": 579,
+      "specValueId": 2142,
+      "specDetail": null,
+      "delFlag": "0",
+      "imgUrl": "",
+      "specValueRemark": "灰玫瑰"
+    },
+    {
+      "id": 5054,
+      "goodsId": 2732,
+      "specId": 579,
+      "specValueId": 2143,
+      "specDetail": null,
+      "delFlag": "0",
+      "imgUrl": "http://ruanzhuang-mall.oss-cn-hangzhou.aliyuncs.com/20180904/201809041358560108ca80897c4ebe82c3a1237f960582.jpg@!thumbnail-rule-56",
+      "specValueRemark": "浅灰"
+    },
+    {
+      "id": 5055,
+      "goodsId": 2732,
+      "specId": 579,
+      "specValueId": 2144,
+      "specDetail": null,
+      "delFlag": "0",
+      "imgUrl": "http://ruanzhuang-mall.oss-cn-hangzhou.aliyuncs.com/20180904/201809041358594d4558e4475a4945b2fc99164cb424b6.jpg@!thumbnail-rule-56",
+      "specValueRemark": "深灰"
+    }]
+  }],
+  "goodsReleParamVos": [
+  {
+    "releParamId": 33381,
+    "goodsId": 2732,
+    "param":
+    {
+      "paramId": 11971,
+      "typeId": 1507,
+      "paramName": "品牌",
+      "paramNickname": "品牌",
+      "paramDelflag": "0",
+      "paramCreateName": "13724920715",
+      "paramCreateTime": 1535678304000,
+      "paramModifiedName": "amin1",
+      "paramModifiedTime": null,
+      "paramDelName": null,
+      "paramDelTime": null
+    },
+    "paramValue": "艾特娜"
+  },
+  {
+    "releParamId": 33382,
+    "goodsId": 2732,
+    "param":
+    {
+      "paramId": 11972,
+      "typeId": 1507,
+      "paramName": "功能",
+      "paramNickname": "功能",
+      "paramDelflag": "0",
+      "paramCreateName": "13724920715",
+      "paramCreateTime": 1535678304000,
+      "paramModifiedName": "amin1",
+      "paramModifiedTime": null,
+      "paramDelName": null,
+      "paramDelTime": null
+    },
+    "paramValue": "坐、倚靠、"
+  },
+  {
+    "releParamId": 33383,
+    "goodsId": 2732,
+    "param":
+    {
+      "paramId": 11973,
+      "typeId": 1507,
+      "paramName": "产地",
+      "paramNickname": "产地",
+      "paramDelflag": "0",
+      "paramCreateName": "13724920715",
+      "paramCreateTime": 1535678304000,
+      "paramModifiedName": "amin1",
+      "paramModifiedTime": null,
+      "paramDelName": null,
+      "paramDelTime": null
+    },
+    "paramValue": "香港兴利集团"
+  },
+  {
+    "releParamId": 33384,
+    "goodsId": 2732,
+    "param":
+    {
+      "paramId": 11974,
+      "typeId": 1507,
+      "paramName": "材质",
+      "paramNickname": "材质",
+      "paramDelflag": "0",
+      "paramCreateName": "13724920715",
+      "paramCreateTime": 1535678304000,
+      "paramModifiedName": "amin1",
+      "paramModifiedTime": null,
+      "paramDelName": null,
+      "paramDelTime": null
+    },
+    "paramValue": "座垫：纯海绵"
+  },
+  {
+    "releParamId": 33385,
+    "goodsId": 2732,
+    "param":
+    {
+      "paramId": 11975,
+      "typeId": 1507,
+      "paramName": "编码/型号",
+      "paramNickname": "编码/型号",
+      "paramDelflag": "0",
+      "paramCreateName": "13724920715",
+      "paramCreateTime": 1535678304000,
+      "paramModifiedName": "amin1",
+      "paramModifiedTime": null,
+      "paramDelName": null,
+      "paramDelTime": null
+    },
+    "paramValue": "0484B"
+  },
+  {
+    "releParamId": 33386,
+    "goodsId": 2732,
+    "param":
+    {
+      "paramId": 11976,
+      "typeId": 1507,
+      "paramName": "风格",
+      "paramNickname": "风格",
+      "paramDelflag": "0",
+      "paramCreateName": "13724920715",
+      "paramCreateTime": 1535678304000,
+      "paramModifiedName": "amin1",
+      "paramModifiedTime": null,
+      "paramDelName": null,
+      "paramDelTime": null
+    },
+    "paramValue": "现代简约"
+  },
+  {
+    "releParamId": 33387,
+    "goodsId": 2732,
+    "param":
+    {
+      "paramId": 11977,
+      "typeId": 1507,
+      "paramName": "规格",
+      "paramNickname": "规格",
+      "paramDelflag": "0",
+      "paramCreateName": "13724920715",
+      "paramCreateTime": 1535678304000,
+      "paramModifiedName": "amin1",
+      "paramModifiedTime": null,
+      "paramDelName": null,
+      "paramDelTime": null
+    },
+    "paramValue": "2110x840x815"
+  },
+  {
+    "releParamId": 33388,
+    "goodsId": 2732,
+    "param":
+    {
+      "paramId": 11978,
+      "typeId": 1507,
+      "paramName": "材质",
+      "paramNickname": "材质",
+      "paramDelflag": "0",
+      "paramCreateName": "13724920715",
+      "paramCreateTime": 1535678304000,
+      "paramModifiedName": "amin1",
+      "paramModifiedTime": null,
+      "paramDelName": null,
+      "paramDelTime": null
+    },
+    "paramValue": ""
+  },
+  {
+    "releParamId": 33389,
+    "goodsId": 2732,
+    "param":
+    {
+      "paramId": 11979,
+      "typeId": 1507,
+      "paramName": "颜色",
+      "paramNickname": "颜色",
+      "paramDelflag": "0",
+      "paramCreateName": "13724920715",
+      "paramCreateTime": 1535678304000,
+      "paramModifiedName": "amin1",
+      "paramModifiedTime": null,
+      "paramDelName": null,
+      "paramDelTime": null
+    },
+    "paramValue": "灰绿/灰玫瑰/浅灰"
+  }],
+  "goodsInfoCreateTime": null,
+  "imageList": [
+  {
+    "goodsImgId": 15345,
+    "goodsInfoId": 7476,
+    "imageInName": "http://ruanzhuang-mall.oss-cn-hangzhou.aliyuncs.com/20180904/201809041404497ae9ea78e45e46999b3a77fd364278f4.jpg@!thumbnail-rule-352",
+    "imageThumName": "http://ruanzhuang-mall.oss-cn-hangzhou.aliyuncs.com/20180904/201809041404497ae9ea78e45e46999b3a77fd364278f4.jpg@!thumbnail-rule-352",
+    "imageBigName": "http://ruanzhuang-mall.oss-cn-hangzhou.aliyuncs.com/20180904/201809041404497ae9ea78e45e46999b3a77fd364278f4.jpg@!thumbnail-rule-352",
+    "imageArtworkName": "http://ruanzhuang-mall.oss-cn-hangzhou.aliyuncs.com/20180904/201809041404497ae9ea78e45e46999b3a77fd364278f4.jpg",
+    "goodsImgSort": 1,
+    "sortNo": null,
+    "goodsImgDelflag": "0",
+    "goodsImgCreateName": "13724920715",
+    "goodsImgCreateTime": 1536041098000,
+    "goodsImgModifiedName": null,
+    "goodsImgModifiedTime": null,
+    "goodsImgDelName": null,
+    "goodsImgDelTime": null,
+    "mainImage": null
+  }],
+  "goods": null,
+  "commentUtilBean": null,
+  "thirdId": 0,
+  "thirdName": "BOSS",
+  "isThird": "0",
+  "suitBuy": 0,
+  "suitIds": null,
+  "catId": null,
+  "brandId": null,
+  "isMailBay": 0,
+  "showMobile": "1",
+  "showList": null,
+  "isCustomerDiscount": "0",
+  "marketingId": null,
+  "groupProductNum": null,
+  "productWares": [
+  {
+    "id": 14683,
+    "productId": 7476,
+    "wareId": 86,
+    "wareName": null,
+    "wareStock": 9,
+    "warePrice": 3081.00,
+    "delFlag": "0"
+  }],
+  "fictitiousSalesCount": null,
+  "videoUrl": "",
+  "videoType": "2"
+},
+{
+  "goodsInfoId": 7477,
+  "goodsId": 2732,
+  "goodsInfoItemNo": "201809041402093",
+  "productName": "“逸·生活”-三人位沙发(浅灰)",
+  "subtitle": "",
+  "goodsInfoAdded": "1",
+  "goodsInfoAddedTime": null,
+  "goodsInfoStock": 0,
+  "goodsInfoPreferPrice": 3081.00,
+  "goodsInfoCostPrice": null,
+  "goodsInfoMarketPrice": 4000.00,
+  "goodsInfoWeight": 1.00,
+  "goodsInfoImgId": "http://ruanzhuang-mall.oss-cn-hangzhou.aliyuncs.com/20180904/201809041403359bb331351fd34e4ea1f8723685098e3d.jpg@!thumbnail-rule-160",
+  "goodsInfoDelflag": "0",
+  "specVo": [
+  {
+    "releSpecDetailId": 6326,
+    "goodsInfoId": 7477,
+    "specValueRemark": "浅灰",
+    "spec":
+    {
+      "specId": 579,
+      "specName": "颜色",
+      "specRemark": "颜色（沙发）",
+      "specNickname": "颜色（沙发）",
+      "specShowtype": "0",
+      "specShowmode": "1",
+      "specDetails": [
+      {
+        "specDetailId": 2141,
+        "specId": 579,
+        "specDetailName": "浅棕",
+        "specDetailNickname": null,
+        "specDetailImg": null,
+        "specDetailSort": 1,
+        "specDetailDelflag": "0",
+        "specDetailCreateName": "13724920715",
+        "specDetailCreateTime": 1535678983000,
+        "specDetailModifiedName": "admin",
+        "specDetailModifiedTime": 1539847476000,
+        "specDetailDelName": null,
+        "specDetailDelTime": null
+      },
+      {
+        "specDetailId": 2142,
+        "specId": 579,
+        "specDetailName": "灰蓝",
+        "specDetailNickname": null,
+        "specDetailImg": null,
+        "specDetailSort": 2,
+        "specDetailDelflag": "0",
+        "specDetailCreateName": "13724920715",
+        "specDetailCreateTime": 1535679012000,
+        "specDetailModifiedName": "admin",
+        "specDetailModifiedTime": 1539847476000,
+        "specDetailDelName": null,
+        "specDetailDelTime": null
+      },
+      {
+        "specDetailId": 2143,
+        "specId": 579,
+        "specDetailName": "深蓝",
+        "specDetailNickname": null,
+        "specDetailImg": null,
+        "specDetailSort": 3,
+        "specDetailDelflag": "0",
+        "specDetailCreateName": "13724920715",
+        "specDetailCreateTime": 1535679012000,
+        "specDetailModifiedName": "admin",
+        "specDetailModifiedTime": 1539847476000,
+        "specDetailDelName": null,
+        "specDetailDelTime": null
+      },
+      {
+        "specDetailId": 2144,
+        "specId": 579,
+        "specDetailName": "白色",
+        "specDetailNickname": null,
+        "specDetailImg": null,
+        "specDetailSort": 4,
+        "specDetailDelflag": "0",
+        "specDetailCreateName": "13724920715",
+        "specDetailCreateTime": 1535679012000,
+        "specDetailModifiedName": "admin",
+        "specDetailModifiedTime": 1539847476000,
+        "specDetailDelName": null,
+        "specDetailDelTime": null
+      },
+      {
+        "specDetailId": 2146,
+        "specId": 579,
+        "specDetailName": "灰色",
+        "specDetailNickname": null,
+        "specDetailImg": null,
+        "specDetailSort": 5,
+        "specDetailDelflag": "0",
+        "specDetailCreateName": "admin",
+        "specDetailCreateTime": 1539847476000,
+        "specDetailModifiedName": null,
+        "specDetailModifiedTime": null,
+        "specDetailDelName": null,
+        "specDetailDelTime": null
+      }]
+    },
+    "goodsSpecDetail":
+    {
+      "specDetailId": 2143,
+      "specId": 579,
+      "specDetailName": "深蓝",
+      "specDetailNickname": null,
+      "specDetailImg": null,
+      "specDetailSort": 3,
+      "specDetailDelflag": "0",
+      "specDetailCreateName": "13724920715",
+      "specDetailCreateTime": 1535679012000,
+      "specDetailModifiedName": "admin",
+      "specDetailModifiedTime": 1539847476000,
+      "specDetailDelName": null,
+      "specDetailDelTime": null
+    }
+  }],
+  "openSpecVo": [
+  {
+    "id": 2456,
+    "goodsId": 2732,
+    "specId": 579,
+    "delFlag": "0",
+    "spec":
+    {
+      "specId": 579,
+      "specName": "颜色",
+      "specRemark": "颜色（沙发）",
+      "specNickname": "颜色（沙发）",
+      "specShowtype": "0",
+      "specShowmode": "1",
+      "specDelflag": "0",
+      "specCreateName": "13724920715",
+      "specCreateTime": 1535678950000,
+      "specModifiedName": "admin",
+      "specModifiedTime": 1539847476000,
+      "specDelName": null,
+      "specDelTime": null
+    },
+    "specValList": [
+    {
+      "id": 5052,
+      "goodsId": 2732,
+      "specId": 579,
+      "specValueId": 2141,
+      "specDetail": null,
+      "delFlag": "0",
+      "imgUrl": "http://ruanzhuang-mall.oss-cn-hangzhou.aliyuncs.com/20180904/20180904135850f6ec866027a442b7b82ff53c1d698a93.jpg@!thumbnail-rule-56",
+      "specValueRemark": "灰绿"
+    },
+    {
+      "id": 5053,
+      "goodsId": 2732,
+      "specId": 579,
+      "specValueId": 2142,
+      "specDetail": null,
+      "delFlag": "0",
+      "imgUrl": "",
+      "specValueRemark": "灰玫瑰"
+    },
+    {
+      "id": 5054,
+      "goodsId": 2732,
+      "specId": 579,
+      "specValueId": 2143,
+      "specDetail": null,
+      "delFlag": "0",
+      "imgUrl": "http://ruanzhuang-mall.oss-cn-hangzhou.aliyuncs.com/20180904/201809041358560108ca80897c4ebe82c3a1237f960582.jpg@!thumbnail-rule-56",
+      "specValueRemark": "浅灰"
+    },
+    {
+      "id": 5055,
+      "goodsId": 2732,
+      "specId": 579,
+      "specValueId": 2144,
+      "specDetail": null,
+      "delFlag": "0",
+      "imgUrl": "http://ruanzhuang-mall.oss-cn-hangzhou.aliyuncs.com/20180904/201809041358594d4558e4475a4945b2fc99164cb424b6.jpg@!thumbnail-rule-56",
+      "specValueRemark": "深灰"
+    }]
+  }],
+  "goodsReleParamVos": [
+  {
+    "releParamId": 33381,
+    "goodsId": 2732,
+    "param":
+    {
+      "paramId": 11971,
+      "typeId": 1507,
+      "paramName": "品牌",
+      "paramNickname": "品牌",
+      "paramDelflag": "0",
+      "paramCreateName": "13724920715",
+      "paramCreateTime": 1535678304000,
+      "paramModifiedName": "amin1",
+      "paramModifiedTime": null,
+      "paramDelName": null,
+      "paramDelTime": null
+    },
+    "paramValue": "艾特娜"
+  },
+  {
+    "releParamId": 33382,
+    "goodsId": 2732,
+    "param":
+    {
+      "paramId": 11972,
+      "typeId": 1507,
+      "paramName": "功能",
+      "paramNickname": "功能",
+      "paramDelflag": "0",
+      "paramCreateName": "13724920715",
+      "paramCreateTime": 1535678304000,
+      "paramModifiedName": "amin1",
+      "paramModifiedTime": null,
+      "paramDelName": null,
+      "paramDelTime": null
+    },
+    "paramValue": "坐、倚靠、"
+  },
+  {
+    "releParamId": 33383,
+    "goodsId": 2732,
+    "param":
+    {
+      "paramId": 11973,
+      "typeId": 1507,
+      "paramName": "产地",
+      "paramNickname": "产地",
+      "paramDelflag": "0",
+      "paramCreateName": "13724920715",
+      "paramCreateTime": 1535678304000,
+      "paramModifiedName": "amin1",
+      "paramModifiedTime": null,
+      "paramDelName": null,
+      "paramDelTime": null
+    },
+    "paramValue": "香港兴利集团"
+  },
+  {
+    "releParamId": 33384,
+    "goodsId": 2732,
+    "param":
+    {
+      "paramId": 11974,
+      "typeId": 1507,
+      "paramName": "材质",
+      "paramNickname": "材质",
+      "paramDelflag": "0",
+      "paramCreateName": "13724920715",
+      "paramCreateTime": 1535678304000,
+      "paramModifiedName": "amin1",
+      "paramModifiedTime": null,
+      "paramDelName": null,
+      "paramDelTime": null
+    },
+    "paramValue": "座垫：纯海绵"
+  },
+  {
+    "releParamId": 33385,
+    "goodsId": 2732,
+    "param":
+    {
+      "paramId": 11975,
+      "typeId": 1507,
+      "paramName": "编码/型号",
+      "paramNickname": "编码/型号",
+      "paramDelflag": "0",
+      "paramCreateName": "13724920715",
+      "paramCreateTime": 1535678304000,
+      "paramModifiedName": "amin1",
+      "paramModifiedTime": null,
+      "paramDelName": null,
+      "paramDelTime": null
+    },
+    "paramValue": "0484B"
+  },
+  {
+    "releParamId": 33386,
+    "goodsId": 2732,
+    "param":
+    {
+      "paramId": 11976,
+      "typeId": 1507,
+      "paramName": "风格",
+      "paramNickname": "风格",
+      "paramDelflag": "0",
+      "paramCreateName": "13724920715",
+      "paramCreateTime": 1535678304000,
+      "paramModifiedName": "amin1",
+      "paramModifiedTime": null,
+      "paramDelName": null,
+      "paramDelTime": null
+    },
+    "paramValue": "现代简约"
+  },
+  {
+    "releParamId": 33387,
+    "goodsId": 2732,
+    "param":
+    {
+      "paramId": 11977,
+      "typeId": 1507,
+      "paramName": "规格",
+      "paramNickname": "规格",
+      "paramDelflag": "0",
+      "paramCreateName": "13724920715",
+      "paramCreateTime": 1535678304000,
+      "paramModifiedName": "amin1",
+      "paramModifiedTime": null,
+      "paramDelName": null,
+      "paramDelTime": null
+    },
+    "paramValue": "2110x840x815"
+  },
+  {
+    "releParamId": 33388,
+    "goodsId": 2732,
+    "param":
+    {
+      "paramId": 11978,
+      "typeId": 1507,
+      "paramName": "材质",
+      "paramNickname": "材质",
+      "paramDelflag": "0",
+      "paramCreateName": "13724920715",
+      "paramCreateTime": 1535678304000,
+      "paramModifiedName": "amin1",
+      "paramModifiedTime": null,
+      "paramDelName": null,
+      "paramDelTime": null
+    },
+    "paramValue": ""
+  },
+  {
+    "releParamId": 33389,
+    "goodsId": 2732,
+    "param":
+    {
+      "paramId": 11979,
+      "typeId": 1507,
+      "paramName": "颜色",
+      "paramNickname": "颜色",
+      "paramDelflag": "0",
+      "paramCreateName": "13724920715",
+      "paramCreateTime": 1535678304000,
+      "paramModifiedName": "amin1",
+      "paramModifiedTime": null,
+      "paramDelName": null,
+      "paramDelTime": null
+    },
+    "paramValue": "灰绿/灰玫瑰/浅灰"
+  }],
+  "goodsInfoCreateTime": null,
+  "imageList": [
+  {
+    "goodsImgId": 15346,
+    "goodsInfoId": 7477,
+    "imageInName": "http://ruanzhuang-mall.oss-cn-hangzhou.aliyuncs.com/20180904/201809041403359bb331351fd34e4ea1f8723685098e3d.jpg@!thumbnail-rule-352",
+    "imageThumName": "http://ruanzhuang-mall.oss-cn-hangzhou.aliyuncs.com/20180904/201809041403359bb331351fd34e4ea1f8723685098e3d.jpg@!thumbnail-rule-352",
+    "imageBigName": "http://ruanzhuang-mall.oss-cn-hangzhou.aliyuncs.com/20180904/201809041403359bb331351fd34e4ea1f8723685098e3d.jpg@!thumbnail-rule-352",
+    "imageArtworkName": "http://ruanzhuang-mall.oss-cn-hangzhou.aliyuncs.com/20180904/201809041403359bb331351fd34e4ea1f8723685098e3d.jpg",
+    "goodsImgSort": 1,
+    "sortNo": null,
+    "goodsImgDelflag": "0",
+    "goodsImgCreateName": "13724920715",
+    "goodsImgCreateTime": 1536041098000,
+    "goodsImgModifiedName": null,
+    "goodsImgModifiedTime": null,
+    "goodsImgDelName": null,
+    "goodsImgDelTime": null,
+    "mainImage": null
+  }],
+  "goods": null,
+  "commentUtilBean": null,
+  "thirdId": 0,
+  "thirdName": "BOSS",
+  "isThird": "0",
+  "suitBuy": 0,
+  "suitIds": null,
+  "catId": null,
+  "brandId": null,
+  "isMailBay": 0,
+  "showMobile": "1",
+  "showList": null,
+  "isCustomerDiscount": "0",
+  "marketingId": null,
+  "groupProductNum": null,
+  "productWares": [
+  {
+    "id": 14684,
+    "productId": 7477,
+    "wareId": 86,
+    "wareName": null,
+    "wareStock": 11,
+    "warePrice": 3081.00,
+    "delFlag": "0"
+  }],
+  "fictitiousSalesCount": null,
+  "videoUrl": "",
+  "videoType": "2"
+},
+{
+  "goodsInfoId": 7478,
+  "goodsId": 2732,
+  "goodsInfoItemNo": "201809041402094",
+  "productName": "“逸·生活”-三人位沙发(深灰)",
+  "subtitle": "",
+  "goodsInfoAdded": "1",
+  "goodsInfoAddedTime": null,
+  "goodsInfoStock": 0,
+  "goodsInfoPreferPrice": 3081.00,
+  "goodsInfoCostPrice": null,
+  "goodsInfoMarketPrice": 4411.00,
+  "goodsInfoWeight": 1.00,
+  "goodsInfoImgId": "http://ruanzhuang-mall.oss-cn-hangzhou.aliyuncs.com/20180904/20180904140346128fdbf11243488d9a6fba5f12d930b0.jpg@!thumbnail-rule-160",
+  "goodsInfoDelflag": "0",
+  "specVo": [
+  {
+    "releSpecDetailId": 6327,
+    "goodsInfoId": 7478,
+    "specValueRemark": "深灰",
+    "spec":
+    {
+      "specId": 579,
+      "specName": "颜色",
+      "specRemark": "颜色（沙发）",
+      "specNickname": "颜色（沙发）",
+      "specShowtype": "0",
+      "specShowmode": "1",
+      "specDetails": [
+      {
+        "specDetailId": 2141,
+        "specId": 579,
+        "specDetailName": "浅棕",
+        "specDetailNickname": null,
+        "specDetailImg": null,
+        "specDetailSort": 1,
+        "specDetailDelflag": "0",
+        "specDetailCreateName": "13724920715",
+        "specDetailCreateTime": 1535678983000,
+        "specDetailModifiedName": "admin",
+        "specDetailModifiedTime": 1539847476000,
+        "specDetailDelName": null,
+        "specDetailDelTime": null
+      },
+      {
+        "specDetailId": 2142,
+        "specId": 579,
+        "specDetailName": "灰蓝",
+        "specDetailNickname": null,
+        "specDetailImg": null,
+        "specDetailSort": 2,
+        "specDetailDelflag": "0",
+        "specDetailCreateName": "13724920715",
+        "specDetailCreateTime": 1535679012000,
+        "specDetailModifiedName": "admin",
+        "specDetailModifiedTime": 1539847476000,
+        "specDetailDelName": null,
+        "specDetailDelTime": null
+      },
+      {
+        "specDetailId": 2143,
+        "specId": 579,
+        "specDetailName": "深蓝",
+        "specDetailNickname": null,
+        "specDetailImg": null,
+        "specDetailSort": 3,
+        "specDetailDelflag": "0",
+        "specDetailCreateName": "13724920715",
+        "specDetailCreateTime": 1535679012000,
+        "specDetailModifiedName": "admin",
+        "specDetailModifiedTime": 1539847476000,
+        "specDetailDelName": null,
+        "specDetailDelTime": null
+      },
+      {
+        "specDetailId": 2144,
+        "specId": 579,
+        "specDetailName": "白色",
+        "specDetailNickname": null,
+        "specDetailImg": null,
+        "specDetailSort": 4,
+        "specDetailDelflag": "0",
+        "specDetailCreateName": "13724920715",
+        "specDetailCreateTime": 1535679012000,
+        "specDetailModifiedName": "admin",
+        "specDetailModifiedTime": 1539847476000,
+        "specDetailDelName": null,
+        "specDetailDelTime": null
+      },
+      {
+        "specDetailId": 2146,
+        "specId": 579,
+        "specDetailName": "灰色",
+        "specDetailNickname": null,
+        "specDetailImg": null,
+        "specDetailSort": 5,
+        "specDetailDelflag": "0",
+        "specDetailCreateName": "admin",
+        "specDetailCreateTime": 1539847476000,
+        "specDetailModifiedName": null,
+        "specDetailModifiedTime": null,
+        "specDetailDelName": null,
+        "specDetailDelTime": null
+      }]
+    },
+    "goodsSpecDetail":
+    {
+      "specDetailId": 2144,
+      "specId": 579,
+      "specDetailName": "白色",
+      "specDetailNickname": null,
+      "specDetailImg": null,
+      "specDetailSort": 4,
+      "specDetailDelflag": "0",
+      "specDetailCreateName": "13724920715",
+      "specDetailCreateTime": 1535679012000,
+      "specDetailModifiedName": "admin",
+      "specDetailModifiedTime": 1539847476000,
+      "specDetailDelName": null,
+      "specDetailDelTime": null
+    }
+  }],
+  "openSpecVo": [
+  {
+    "id": 2456,
+    "goodsId": 2732,
+    "specId": 579,
+    "delFlag": "0",
+    "spec":
+    {
+      "specId": 579,
+      "specName": "颜色",
+      "specRemark": "颜色（沙发）",
+      "specNickname": "颜色（沙发）",
+      "specShowtype": "0",
+      "specShowmode": "1",
+      "specDelflag": "0",
+      "specCreateName": "13724920715",
+      "specCreateTime": 1535678950000,
+      "specModifiedName": "admin",
+      "specModifiedTime": 1539847476000,
+      "specDelName": null,
+      "specDelTime": null
+    },
+    "specValList": [
+    {
+      "id": 5052,
+      "goodsId": 2732,
+      "specId": 579,
+      "specValueId": 2141,
+      "specDetail": null,
+      "delFlag": "0",
+      "imgUrl": "http://ruanzhuang-mall.oss-cn-hangzhou.aliyuncs.com/20180904/20180904135850f6ec866027a442b7b82ff53c1d698a93.jpg@!thumbnail-rule-56",
+      "specValueRemark": "灰绿"
+    },
+    {
+      "id": 5053,
+      "goodsId": 2732,
+      "specId": 579,
+      "specValueId": 2142,
+      "specDetail": null,
+      "delFlag": "0",
+      "imgUrl": "",
+      "specValueRemark": "灰玫瑰"
+    },
+    {
+      "id": 5054,
+      "goodsId": 2732,
+      "specId": 579,
+      "specValueId": 2143,
+      "specDetail": null,
+      "delFlag": "0",
+      "imgUrl": "http://ruanzhuang-mall.oss-cn-hangzhou.aliyuncs.com/20180904/201809041358560108ca80897c4ebe82c3a1237f960582.jpg@!thumbnail-rule-56",
+      "specValueRemark": "浅灰"
+    },
+    {
+      "id": 5055,
+      "goodsId": 2732,
+      "specId": 579,
+      "specValueId": 2144,
+      "specDetail": null,
+      "delFlag": "0",
+      "imgUrl": "http://ruanzhuang-mall.oss-cn-hangzhou.aliyuncs.com/20180904/201809041358594d4558e4475a4945b2fc99164cb424b6.jpg@!thumbnail-rule-56",
+      "specValueRemark": "深灰"
+    }]
+  }],
+  "goodsReleParamVos": [
+  {
+    "releParamId": 33381,
+    "goodsId": 2732,
+    "param":
+    {
+      "paramId": 11971,
+      "typeId": 1507,
+      "paramName": "品牌",
+      "paramNickname": "品牌",
+      "paramDelflag": "0",
+      "paramCreateName": "13724920715",
+      "paramCreateTime": 1535678304000,
+      "paramModifiedName": "amin1",
+      "paramModifiedTime": null,
+      "paramDelName": null,
+      "paramDelTime": null
+    },
+    "paramValue": "艾特娜"
+  },
+  {
+    "releParamId": 33382,
+    "goodsId": 2732,
+    "param":
+    {
+      "paramId": 11972,
+      "typeId": 1507,
+      "paramName": "功能",
+      "paramNickname": "功能",
+      "paramDelflag": "0",
+      "paramCreateName": "13724920715",
+      "paramCreateTime": 1535678304000,
+      "paramModifiedName": "amin1",
+      "paramModifiedTime": null,
+      "paramDelName": null,
+      "paramDelTime": null
+    },
+    "paramValue": "坐、倚靠、"
+  },
+  {
+    "releParamId": 33383,
+    "goodsId": 2732,
+    "param":
+    {
+      "paramId": 11973,
+      "typeId": 1507,
+      "paramName": "产地",
+      "paramNickname": "产地",
+      "paramDelflag": "0",
+      "paramCreateName": "13724920715",
+      "paramCreateTime": 1535678304000,
+      "paramModifiedName": "amin1",
+      "paramModifiedTime": null,
+      "paramDelName": null,
+      "paramDelTime": null
+    },
+    "paramValue": "香港兴利集团"
+  },
+  {
+    "releParamId": 33384,
+    "goodsId": 2732,
+    "param":
+    {
+      "paramId": 11974,
+      "typeId": 1507,
+      "paramName": "材质",
+      "paramNickname": "材质",
+      "paramDelflag": "0",
+      "paramCreateName": "13724920715",
+      "paramCreateTime": 1535678304000,
+      "paramModifiedName": "amin1",
+      "paramModifiedTime": null,
+      "paramDelName": null,
+      "paramDelTime": null
+    },
+    "paramValue": "座垫：纯海绵"
+  },
+  {
+    "releParamId": 33385,
+    "goodsId": 2732,
+    "param":
+    {
+      "paramId": 11975,
+      "typeId": 1507,
+      "paramName": "编码/型号",
+      "paramNickname": "编码/型号",
+      "paramDelflag": "0",
+      "paramCreateName": "13724920715",
+      "paramCreateTime": 1535678304000,
+      "paramModifiedName": "amin1",
+      "paramModifiedTime": null,
+      "paramDelName": null,
+      "paramDelTime": null
+    },
+    "paramValue": "0484B"
+  },
+  {
+    "releParamId": 33386,
+    "goodsId": 2732,
+    "param":
+    {
+      "paramId": 11976,
+      "typeId": 1507,
+      "paramName": "风格",
+      "paramNickname": "风格",
+      "paramDelflag": "0",
+      "paramCreateName": "13724920715",
+      "paramCreateTime": 1535678304000,
+      "paramModifiedName": "amin1",
+      "paramModifiedTime": null,
+      "paramDelName": null,
+      "paramDelTime": null
+    },
+    "paramValue": "现代简约"
+  },
+  {
+    "releParamId": 33387,
+    "goodsId": 2732,
+    "param":
+    {
+      "paramId": 11977,
+      "typeId": 1507,
+      "paramName": "规格",
+      "paramNickname": "规格",
+      "paramDelflag": "0",
+      "paramCreateName": "13724920715",
+      "paramCreateTime": 1535678304000,
+      "paramModifiedName": "amin1",
+      "paramModifiedTime": null,
+      "paramDelName": null,
+      "paramDelTime": null
+    },
+    "paramValue": "2110x840x815"
+  },
+  {
+    "releParamId": 33388,
+    "goodsId": 2732,
+    "param":
+    {
+      "paramId": 11978,
+      "typeId": 1507,
+      "paramName": "材质",
+      "paramNickname": "材质",
+      "paramDelflag": "0",
+      "paramCreateName": "13724920715",
+      "paramCreateTime": 1535678304000,
+      "paramModifiedName": "amin1",
+      "paramModifiedTime": null,
+      "paramDelName": null,
+      "paramDelTime": null
+    },
+    "paramValue": ""
+  },
+  {
+    "releParamId": 33389,
+    "goodsId": 2732,
+    "param":
+    {
+      "paramId": 11979,
+      "typeId": 1507,
+      "paramName": "颜色",
+      "paramNickname": "颜色",
+      "paramDelflag": "0",
+      "paramCreateName": "13724920715",
+      "paramCreateTime": 1535678304000,
+      "paramModifiedName": "amin1",
+      "paramModifiedTime": null,
+      "paramDelName": null,
+      "paramDelTime": null
+    },
+    "paramValue": "灰绿/灰玫瑰/浅灰"
+  }],
+  "goodsInfoCreateTime": null,
+  "imageList": [
+  {
+    "goodsImgId": 15347,
+    "goodsInfoId": 7478,
+    "imageInName": "http://ruanzhuang-mall.oss-cn-hangzhou.aliyuncs.com/20180904/20180904140346128fdbf11243488d9a6fba5f12d930b0.jpg@!thumbnail-rule-352",
+    "imageThumName": "http://ruanzhuang-mall.oss-cn-hangzhou.aliyuncs.com/20180904/20180904140346128fdbf11243488d9a6fba5f12d930b0.jpg@!thumbnail-rule-352",
+    "imageBigName": "http://ruanzhuang-mall.oss-cn-hangzhou.aliyuncs.com/20180904/20180904140346128fdbf11243488d9a6fba5f12d930b0.jpg@!thumbnail-rule-352",
+    "imageArtworkName": "http://ruanzhuang-mall.oss-cn-hangzhou.aliyuncs.com/20180904/20180904140346128fdbf11243488d9a6fba5f12d930b0.jpg",
+    "goodsImgSort": 1,
+    "sortNo": null,
+    "goodsImgDelflag": "0",
+    "goodsImgCreateName": "13724920715",
+    "goodsImgCreateTime": 1536041098000,
+    "goodsImgModifiedName": null,
+    "goodsImgModifiedTime": null,
+    "goodsImgDelName": null,
+    "goodsImgDelTime": null,
+    "mainImage": null
+  }],
+  "goods": null,
+  "commentUtilBean": null,
+  "thirdId": 0,
+  "thirdName": "BOSS",
+  "isThird": "0",
+  "suitBuy": 0,
+  "suitIds": null,
+  "catId": null,
+  "brandId": null,
+  "isMailBay": 0,
+  "showMobile": "1",
+  "showList": null,
+  "isCustomerDiscount": "0",
+  "marketingId": null,
+  "groupProductNum": null,
+  "productWares": [
+  {
+    "id": 14685,
+    "productId": 7478,
+    "wareId": 86,
+    "wareName": null,
+    "wareStock": 11,
+    "warePrice": 3081.00,
+    "delFlag": "0"
+  }],
+  "fictitiousSalesCount": null,
+  "videoUrl": "",
+  "videoType": "2"
+}]

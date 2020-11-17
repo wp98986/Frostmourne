@@ -1,0 +1,48 @@
+@import '~antd/lib/style/themes/default.less';
+
+.listContent {
+  font-size: 0;
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  flex-wrap: wrap;
+  .listContentItem {
+    color: @text-color-secondary;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: @font-size-base;
+    padding: 0 20px;
+    min-width: 50px;
+    > span {
+      line-height: 20px;
+    }
+    > p {
+      margin-top: 4px;
+      margin-bottom: 0;
+      line-height: 22px;
+    }
+  }
+}
+
+.noticeItemType {
+  width: 10%;
+}
+
+.noticeItemStatus {
+  width: 10%;
+}
+
+.noticeItemTitle {
+  width: 20%;
+}
+
+.noticeItemContent {
+  width: 45%;
+}
+
+.noticeItemDate {
+  width: 15%;
+}
+.noticePaination {
+  text-align: right;
+}

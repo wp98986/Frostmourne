@@ -1,0 +1,99 @@
+@import '~antd/lib/style/themes/default.less';
+
+.baseView {
+  display: flex;
+  padding-top: 12px;
+
+  .left {
+    max-width: 448px;
+    min-width: 224px;
+  }
+  .right {
+    flex: 1;
+    padding-left: 104px;
+    .avatar_title {
+      height: 22px;
+      font-size: @font-size-base;
+      color: @heading-color;
+      line-height: 22px;
+      margin-bottom: 8px;
+    }
+    .avatar {
+      width: 144px;
+      height: 144px;
+      margin-bottom: 12px;
+      overflow: hidden;
+      img {
+        width: 100%;
+      }
+    }
+    .orginfo {
+      padding: 24px 0;
+      font-size: 14px;
+      div {
+        line-height: 35px;
+      }
+      :global {
+        .anticon {
+          margin-right: 7px;
+        }
+      }
+    }
+    .button_view {
+      width: 144px;
+      text-align: center;
+    }
+  }
+}
+
+@media screen and (max-width: @screen-xl) {
+  .baseView {
+    flex-direction: column-reverse;
+
+    .right {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 448px;
+      .avatar_title {
+        display: none;
+      }
+    }
+  }
+}
+
+.inviteModal {
+  :global(.ant-modal-body) {
+    min-height: 200px;
+  }
+}
+
+.inviteMobileDiv {
+  max-width: 448px;
+  margin-bottom: 15px;
+  & > .error {
+    color: red;
+    margin: 5px 0;
+  }
+  & > span {
+    width: 80px;
+    display: inline-block;
+    position: relative;
+    &::before {
+      position: absolute;
+      content: '*';
+      color: red;
+      left: -10px;
+      top: 0;
+    }
+  }
+  :global {
+    .ant-input {
+      width: 160px;
+      margin-right: 7px;
+      margin-left: 7px;
+    }
+  }
+  // color: red;
+}

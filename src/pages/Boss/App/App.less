@@ -1,0 +1,94 @@
+@import '~antd/lib/style/themes/default.less';
+
+.stepForm {
+  margin: 40px auto 0;
+  max-width: 500px;
+}
+
+.steps {
+  max-width: 750px;
+  margin: 16px auto;
+}
+
+.listLogo {
+  width: 50px;
+  height: 50px;
+}
+
+.blockLine {
+  width: 100%;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.stepFormText {
+  margin-bottom: 24px;
+  :global {
+    .ant-form-item-label,
+    .ant-form-item-control {
+      line-height: 22px;
+    }
+  }
+}
+
+.tableList {
+  .tableListOperator {
+    margin-bottom: 16px;
+    button {
+      margin-right: 8px;
+    }
+  }
+}
+
+.card {
+  margin-bottom: 30px;
+}
+
+.tableListForm {
+  :global {
+    .ant-form-item {
+      margin-bottom: 24px;
+      margin-right: 0;
+      display: flex;
+      > .ant-form-item-label {
+        width: auto;
+        line-height: 32px;
+        padding-right: 8px;
+      }
+      .ant-form-item-control {
+        line-height: 32px;
+      }
+    }
+    .ant-form-item-control-wrapper {
+      flex: 1;
+    }
+  }
+  .submitButtons {
+    display: block;
+    white-space: nowrap;
+    margin-bottom: 24px;
+  }
+}
+
+@media screen and (max-width: @screen-lg) {
+  .tableListForm :global(.ant-form-item) {
+    margin-right: 24px;
+  }
+  .steps {
+    max-width: 500px;
+    margin: 16px auto;
+  }
+}
+
+@media screen and (max-width: @screen-md) {
+  .tableListForm :global(.ant-form-item) {
+    margin-right: 8px;
+  }
+  .steps {
+    max-width: 300px;
+    margin: 16px auto;
+  }
+}

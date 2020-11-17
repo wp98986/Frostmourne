@@ -1,0 +1,18 @@
+{
+	"errorMessage": "",
+	"readTime": "2018年11月22日 22:21:56",
+	"data": [
+		{ "name": "通用", "value": "common" },
+		{ "name": "空权限", "value": "nothing" },
+		{ "name": "权限读", "value": "authorityRead" },
+		{ "name": "权限维护", "value": "authorityModify" },
+		{ "name": "权限删", "value": "authorityDel" },
+		{ "name": "角色读", "value": "roleRead" },
+		{ "name": "角色维护", "value": "roleModify" },
+		{ "name": "角色删除", "value": "roleDel" },
+		{ "name": "组织读", "value": "orgRead" },
+		{ "name": "组织新增", "value": "orgAdd" },
+		{ "name": "组织维护", "value": "orgModify" },
+	],
+	"success": true
+}

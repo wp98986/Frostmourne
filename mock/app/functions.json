@@ -1,0 +1,4551 @@
+{
+    "errorMessage":"",
+    "readTime":"2018年11月23日 14:08:46",
+    "data":[
+        {
+            "catalog":"group1",
+            "createdate":"2018年08月17日 17:03:48",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":2264,
+            "lastModifyDate":"2018年08月17日 17:09:07",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"APP版本记录读",
+            "type":"system"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年08月17日 17:06:34",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":2265,
+            "lastModifyDate":"2018年08月17日 17:07:25",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"APP版本记录维护",
+            "type":"system"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年09月07日 11:52:36",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":102484,
+            "lastModifyDate":"2018年09月07日 11:52:36",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"APP版本日志",
+            "type":"home"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年05月31日 18:04:05",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":1785,
+            "lastModifyDate":"2018年05月31日 18:04:15",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"按钮配置读取",
+            "type":"business"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年05月31日 18:04:03",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":1784,
+            "lastModifyDate":"2018年05月31日 18:04:24",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"按钮配置维护",
+            "type":"business"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年08月03日 09:17:57",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":2164,
+            "lastModifyDate":"2018年08月03日 09:28:30",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"帮助文档读取",
+            "type":"staffmanage"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年08月03日 09:18:32",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":2165,
+            "lastModifyDate":"2018年08月03日 09:29:00",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"帮助文档维护",
+            "type":"staffmanage"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年09月17日 00:36:05",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":102526,
+            "lastModifyDate":"2018年09月17日 00:36:05",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"采购价格本查看",
+            "type":"city"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年09月17日 00:37:05",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":102527,
+            "lastModifyDate":"2018年09月17日 00:37:05",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"采购价格本维护",
+            "type":"city"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月27日 18:23:22",
+            "creator":{
+                "id":13248,
+                "isConcerned":false,
+                "realName":"黄舜平",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"黄舜平",
+            "id":1726,
+            "lastModifyDate":"2018年04月27日 18:25:46",
+            "lastModifyer":{
+                "id":13248,
+                "isConcerned":false,
+                "realName":"黄舜平",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"黄舜平",
+            "name":"操作积分查看",
+            "type":"business"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月27日 18:23:43",
+            "creator":{
+                "id":13248,
+                "isConcerned":false,
+                "realName":"黄舜平",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"黄舜平",
+            "id":1727,
+            "lastModifyDate":"2018年04月27日 18:25:57",
+            "lastModifyer":{
+                "id":13248,
+                "isConcerned":false,
+                "realName":"黄舜平",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"黄舜平",
+            "name":"操作积分维护",
+            "type":"business"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月12日 12:10:47",
+            "creator":{
+                "id":23879,
+                "isConcerned":false,
+                "realName":"周晟",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"周晟",
+            "id":1686,
+            "lastModifyDate":"2018年04月12日 12:10:47",
+            "lastModifyer":{
+                "id":23879,
+                "isConcerned":false,
+                "realName":"周晟",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"周晟",
+            "name":"测量查看",
+            "type":"tasks"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月12日 12:11:06",
+            "creator":{
+                "id":23879,
+                "isConcerned":false,
+                "realName":"周晟",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"周晟",
+            "id":1687,
+            "lastModifyDate":"2018年04月12日 12:11:06",
+            "lastModifyer":{
+                "id":23879,
+                "isConcerned":false,
+                "realName":"周晟",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"周晟",
+            "name":"测量维护",
+            "type":"tasks"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年07月27日 15:39:44",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":2144,
+            "lastModifyDate":"2018年07月27日 15:39:44",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"撤销发布",
+            "type":"tasks"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年09月16日 20:11:55",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":102524,
+            "lastModifyDate":"2018年09月16日 20:24:43",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"待分派任务查看",
+            "type":"city"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年09月16日 20:16:30",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":102525,
+            "lastModifyDate":"2018年09月16日 20:24:36",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"待分派任务维护",
+            "type":"city"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年09月13日 10:35:05",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":102505,
+            "lastModifyDate":"2018年09月13日 10:35:05",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"待接收任务编辑",
+            "type":"city"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年09月13日 10:34:04",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":102504,
+            "lastModifyDate":"2018年09月13日 10:34:04",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"待接收任务查看",
+            "type":"city"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月13日 11:34:38",
+            "creator":{
+                "id":24422,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":1704,
+            "lastModifyDate":"2018年04月13日 11:34:38",
+            "lastModifyer":{
+                "id":24422,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"地图可视化",
+            "type":"tasks"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年07月23日 17:40:17",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":2125,
+            "lastModifyDate":"2018年07月30日 17:54:28",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"短信批量发送",
+            "type":"system"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年06月29日 12:17:21",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":1904,
+            "lastModifyDate":"2018年06月29日 12:17:21",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"分润模版查看",
+            "type":"appreciationmanage"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年06月29日 12:18:09",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":1905,
+            "lastModifyDate":"2018年06月29日 12:18:09",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"分润模版维护",
+            "type":"appreciationmanage"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月09日 15:26:36",
+            "creator":{
+                "id":13745,
+                "isConcerned":false,
+                "realName":"李荣起",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"李荣起",
+            "id":1662,
+            "lastModifyDate":"2018年04月09日 15:26:36",
+            "lastModifyer":{
+                "id":13745,
+                "isConcerned":false,
+                "realName":"李荣起",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"李荣起",
+            "name":"服务定义查看",
+            "type":"product"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月09日 15:26:53",
+            "creator":{
+                "id":13745,
+                "isConcerned":false,
+                "realName":"李荣起",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"李荣起",
+            "id":1663,
+            "lastModifyDate":"2018年04月09日 15:33:53",
+            "lastModifyer":{
+                "id":13745,
+                "isConcerned":false,
+                "realName":"李荣起",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"李荣起",
+            "name":"服务定义维护",
+            "type":"product"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月09日 15:37:02",
+            "creator":{
+                "id":13745,
+                "isConcerned":false,
+                "realName":"李荣起",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"李荣起",
+            "id":1665,
+            "lastModifyDate":"2018年04月09日 15:37:02",
+            "lastModifyer":{
+                "id":13745,
+                "isConcerned":false,
+                "realName":"李荣起",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"李荣起",
+            "name":"服务节点查看",
+            "type":"product"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月09日 15:36:25",
+            "creator":{
+                "id":13745,
+                "isConcerned":false,
+                "realName":"李荣起",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"李荣起",
+            "id":1664,
+            "lastModifyDate":"2018年04月09日 15:36:25",
+            "lastModifyer":{
+                "id":13745,
+                "isConcerned":false,
+                "realName":"李荣起",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"李荣起",
+            "name":"服务节点维护",
+            "type":"product"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月09日 15:15:47",
+            "creator":{
+                "id":13745,
+                "isConcerned":false,
+                "realName":"李荣起",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"李荣起",
+            "id":1656,
+            "lastModifyDate":"2018年04月09日 15:19:07",
+            "lastModifyer":{
+                "id":13745,
+                "isConcerned":false,
+                "realName":"李荣起",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"李荣起",
+            "name":"服务品类查看",
+            "type":"product"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月09日 15:16:37",
+            "creator":{
+                "id":13745,
+                "isConcerned":false,
+                "realName":"李荣起",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"李荣起",
+            "id":1657,
+            "lastModifyDate":"2018年04月09日 15:19:24",
+            "lastModifyer":{
+                "id":13745,
+                "isConcerned":false,
+                "realName":"李荣起",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"李荣起",
+            "name":"服务品类维护",
+            "type":"product"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年09月13日 10:36:47",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":102507,
+            "lastModifyDate":"2018年09月13日 11:11:06",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"服务商品编辑",
+            "type":"product"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年09月13日 10:36:01",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":102506,
+            "lastModifyDate":"2018年09月13日 11:11:56",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"服务商品查看",
+            "type":"product"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月09日 15:18:36",
+            "creator":{
+                "id":13745,
+                "isConcerned":false,
+                "realName":"李荣起",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"李荣起",
+            "id":1659,
+            "lastModifyDate":"2018年04月09日 15:18:36",
+            "lastModifyer":{
+                "id":13745,
+                "isConcerned":false,
+                "realName":"李荣起",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"李荣起",
+            "name":"服务项目查看",
+            "type":"product"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月09日 15:18:11",
+            "creator":{
+                "id":13745,
+                "isConcerned":false,
+                "realName":"李荣起",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"李荣起",
+            "id":1658,
+            "lastModifyDate":"2018年04月09日 15:18:11",
+            "lastModifyer":{
+                "id":13745,
+                "isConcerned":false,
+                "realName":"李荣起",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"李荣起",
+            "name":"服务项目维护",
+            "type":"product"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年09月06日 12:15:52",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":102465,
+            "lastModifyDate":"2018年09月06日 12:15:52",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"服务站编辑",
+            "type":"agcy"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年09月06日 12:14:27",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":102464,
+            "lastModifyDate":"2018年09月06日 12:14:37",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"服务站列表查看",
+            "type":"agcy"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年09月05日 16:31:35",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":102445,
+            "lastModifyDate":"2018年09月06日 10:50:46",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"服务站认证审核",
+            "type":"businessaudit"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年09月05日 16:29:29",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":102444,
+            "lastModifyDate":"2018年09月06日 14:22:28",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"服务站申请认证",
+            "type":"businessaudit"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年09月04日 14:17:12",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":2424,
+            "lastModifyDate":"2018年09月04日 14:24:22",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"工队列表查看",
+            "type":"worker"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年09月04日 14:29:56",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":2425,
+            "lastModifyDate":"2018年09月04日 14:29:56",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"工队列表维护",
+            "type":"worker"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年09月30日 11:58:09",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":102546,
+            "lastModifyDate":"2018年09月30日 14:46:21",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"工费对账单",
+            "type":"account"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月13日 11:24:24",
+            "creator":{
+                "id":24489,
+                "isConcerned":false,
+                "realName":"梁云",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"梁云",
+            "id":1697,
+            "lastModifyDate":"2018年04月13日 11:24:24",
+            "lastModifyer":{
+                "id":24489,
+                "isConcerned":false,
+                "realName":"梁云",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"梁云",
+            "name":"工费支付查看",
+            "type":"account"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月13日 11:31:20",
+            "creator":{
+                "id":24489,
+                "isConcerned":false,
+                "realName":"梁云",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"梁云",
+            "id":1701,
+            "lastModifyDate":"2018年04月13日 11:31:37",
+            "lastModifyer":{
+                "id":24489,
+                "isConcerned":false,
+                "realName":"梁云",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"梁云",
+            "name":"工费支付维护",
+            "type":"account"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月13日 11:34:05",
+            "creator":{
+                "id":24422,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":1703,
+            "lastModifyDate":"2018年04月13日 11:34:05",
+            "lastModifyer":{
+                "id":24422,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"工人分配",
+            "type":"tasks"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月09日 10:54:44",
+            "creator":{
+                "id":23608,
+                "isConcerned":false,
+                "realName":"平台张德新",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"平台张德新",
+            "id":1644,
+            "lastModifyDate":"2018年09月13日 16:27:08",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"工人价格本查看",
+            "type":"worker"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月09日 10:55:51",
+            "creator":{
+                "id":23608,
+                "isConcerned":false,
+                "realName":"平台张德新",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"平台张德新",
+            "id":1645,
+            "lastModifyDate":"2018年09月13日 16:23:24",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"工人价格本维护",
+            "type":"worker"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年11月06日 17:06:23",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":102624,
+            "lastModifyDate":"2018年11月06日 17:06:23",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"工人日历查看",
+            "type":"worker"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月09日 10:57:29",
+            "creator":{
+                "id":23608,
+                "isConcerned":false,
+                "realName":"平台张德新",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"平台张德新",
+            "id":1646,
+            "lastModifyDate":"2018年07月20日 16:18:41",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"工人挑选价格查看",
+            "type":"worker"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月09日 10:58:13",
+            "creator":{
+                "id":23608,
+                "isConcerned":false,
+                "realName":"平台张德新",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"平台张德新",
+            "id":1647,
+            "lastModifyDate":"2018年07月20日 16:18:34",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"工人挑选价格维护",
+            "type":"worker"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月09日 10:59:41",
+            "creator":{
+                "id":23608,
+                "isConcerned":false,
+                "realName":"平台张德新",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"平台张德新",
+            "id":1648,
+            "lastModifyDate":"2018年04月09日 10:59:41",
+            "lastModifyer":{
+                "id":23608,
+                "isConcerned":false,
+                "realName":"平台张德新",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"平台张德新",
+            "name":"工人主档查看",
+            "type":"worker"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月09日 11:00:35",
+            "creator":{
+                "id":23608,
+                "isConcerned":false,
+                "realName":"平台张德新",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"平台张德新",
+            "id":1649,
+            "lastModifyDate":"2018年04月09日 11:00:57",
+            "lastModifyer":{
+                "id":23608,
+                "isConcerned":false,
+                "realName":"平台张德新",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"平台张德新",
+            "name":"工人主档维护",
+            "type":"worker"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月09日 11:02:43",
+            "creator":{
+                "id":23608,
+                "isConcerned":false,
+                "realName":"平台张德新",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"平台张德新",
+            "id":1650,
+            "lastModifyDate":"2018年07月20日 18:58:15",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"工种查看",
+            "type":"business"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月09日 11:03:52",
+            "creator":{
+                "id":23608,
+                "isConcerned":false,
+                "realName":"平台张德新",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"平台张德新",
+            "id":1651,
+            "lastModifyDate":"2018年07月20日 18:58:11",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"工种管理",
+            "type":"business"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月09日 16:01:13",
+            "creator":{
+                "id":13745,
+                "isConcerned":false,
+                "realName":"李荣起",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"李荣起",
+            "id":1673,
+            "lastModifyDate":"2018年04月09日 16:03:13",
+            "lastModifyer":{
+                "id":13745,
+                "isConcerned":false,
+                "realName":"李荣起",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"李荣起",
+            "name":"功能模块查看",
+            "type":"business"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月09日 16:00:56",
+            "creator":{
+                "id":13745,
+                "isConcerned":false,
+                "realName":"李荣起",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"李荣起",
+            "id":1672,
+            "lastModifyDate":"2018年04月09日 16:06:04",
+            "lastModifyer":{
+                "id":13745,
+                "isConcerned":false,
+                "realName":"李荣起",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"李荣起",
+            "name":"功能模块维护",
+            "type":"business"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年07月23日 17:39:30",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":2124,
+            "lastModifyDate":"2018年07月23日 17:39:30",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"公告列表读(城市合伙人端)",
+            "type":"staffmanage"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年07月20日 16:19:01",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":2064,
+            "lastModifyDate":"2018年07月23日 17:41:12",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"公告文档管理员列表",
+            "type":"staffmanage"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年07月20日 16:19:49",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":2065,
+            "lastModifyDate":"2018年07月23日 17:41:41",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"公告文档管理员新增",
+            "type":"staffmanage"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年08月30日 17:54:54",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":2284,
+            "lastModifyDate":"2018年08月30日 17:59:41",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"积分产品查看",
+            "type":"product"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年08月30日 17:56:11",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":2285,
+            "lastModifyDate":"2018年08月30日 18:36:18",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"积分产品维护",
+            "type":"product"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年08月30日 17:57:00",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":2286,
+            "lastModifyDate":"2018年08月30日 17:59:19",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"积分兑换查看",
+            "type":"businessaudit"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年08月30日 17:57:26",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":2287,
+            "lastModifyDate":"2018年08月30日 17:59:04",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"积分兑换审核",
+            "type":"businessaudit"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年05月17日 18:52:25",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":1764,
+            "lastModifyDate":"2018年05月17日 18:56:19",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"积分类型查看",
+            "type":"product"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年05月17日 18:52:27",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":1765,
+            "lastModifyDate":"2018年05月17日 18:56:32",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"积分类型维护",
+            "type":"product"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月09日 15:38:27",
+            "creator":{
+                "id":13745,
+                "isConcerned":false,
+                "realName":"李荣起",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"李荣起",
+            "id":1667,
+            "lastModifyDate":"2018年04月09日 15:38:27",
+            "lastModifyer":{
+                "id":13745,
+                "isConcerned":false,
+                "realName":"李荣起",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"李荣起",
+            "name":"计量单位查看",
+            "type":"product"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月09日 15:38:13",
+            "creator":{
+                "id":13745,
+                "isConcerned":false,
+                "realName":"李荣起",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"李荣起",
+            "id":1666,
+            "lastModifyDate":"2018年04月09日 15:38:13",
+            "lastModifyer":{
+                "id":13745,
+                "isConcerned":false,
+                "realName":"李荣起",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"李荣起",
+            "name":"计量单位维护",
+            "type":"product"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年07月11日 18:48:11",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":1926,
+            "lastModifyDate":"2018年07月11日 18:48:11",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"客户管理",
+            "type":"agcy"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年10月17日 15:07:56",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":102564,
+            "lastModifyDate":"2018年10月31日 15:00:06",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"客户评价查看",
+            "type":"tasks"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年07月11日 18:47:41",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":1925,
+            "lastModifyDate":"2018年07月11日 18:47:41",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"客户信息读",
+            "type":"agcy"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年09月30日 11:57:44",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":102545,
+            "lastModifyDate":"2018年09月30日 14:46:31",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"内部对账单",
+            "type":"account"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月09日 15:20:42",
+            "creator":{
+                "id":13745,
+                "isConcerned":false,
+                "realName":"李荣起",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"李荣起",
+            "id":1661,
+            "lastModifyDate":"2018年09月19日 10:46:39",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"评价标准查看",
+            "type":"product"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月09日 15:20:26",
+            "creator":{
+                "id":13745,
+                "isConcerned":false,
+                "realName":"李荣起",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"李荣起",
+            "id":1660,
+            "lastModifyDate":"2018年09月19日 10:46:55",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"评价标准维护",
+            "type":"product"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月27日 18:24:13",
+            "creator":{
+                "id":13248,
+                "isConcerned":false,
+                "realName":"黄舜平",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"黄舜平",
+            "id":1728,
+            "lastModifyDate":"2018年04月27日 18:26:50",
+            "lastModifyer":{
+                "id":13248,
+                "isConcerned":false,
+                "realName":"黄舜平",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"黄舜平",
+            "name":"评价积分查看",
+            "type":"business"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月27日 18:24:32",
+            "creator":{
+                "id":13248,
+                "isConcerned":false,
+                "realName":"黄舜平",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"黄舜平",
+            "id":1729,
+            "lastModifyDate":"2018年04月27日 18:28:19",
+            "lastModifyer":{
+                "id":13248,
+                "isConcerned":false,
+                "realName":"黄舜平",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"黄舜平",
+            "name":"评价积分维护",
+            "type":"business"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月12日 12:13:28",
+            "creator":{
+                "id":23879,
+                "isConcerned":false,
+                "realName":"周晟",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"周晟",
+            "id":1688,
+            "lastModifyDate":"2018年07月20日 16:18:03",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"任务变更查看",
+            "type":"businessaudit"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月12日 12:13:59",
+            "creator":{
+                "id":23879,
+                "isConcerned":false,
+                "realName":"周晟",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"周晟",
+            "id":1689,
+            "lastModifyDate":"2018年08月03日 15:29:24",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"任务变更维护",
+            "type":"businessaudit"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月12日 10:54:17",
+            "creator":{
+                "id":23879,
+                "isConcerned":false,
+                "realName":"周晟",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"周晟",
+            "id":1680,
+            "lastModifyDate":"2018年09月05日 17:29:26",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"任务查看",
+            "type":"tasks"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年08月03日 09:28:18",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":2184,
+            "lastModifyDate":"2018年08月16日 09:20:39",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"任务核查列表",
+            "type":"tasks"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月13日 11:14:01",
+            "creator":{
+                "id":24489,
+                "isConcerned":false,
+                "realName":"梁云",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"梁云",
+            "id":1694,
+            "lastModifyDate":"2018年10月19日 17:57:19",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"任务核算工作台",
+            "type":"account"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月12日 11:04:16",
+            "creator":{
+                "id":23879,
+                "isConcerned":false,
+                "realName":"周晟",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"周晟",
+            "id":1681,
+            "lastModifyDate":"2018年08月11日 19:23:36",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"任务维护",
+            "type":"tasks"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年05月17日 18:47:31",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":1744,
+            "lastModifyDate":"2018年05月17日 18:49:18",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"商标品牌查看",
+            "type":"product"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年05月17日 18:48:18",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":1745,
+            "lastModifyDate":"2018年05月17日 18:49:25",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"商标品牌维护",
+            "type":"product"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年05月31日 18:06:57",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":1804,
+            "lastModifyDate":"2018年07月27日 14:04:38",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"商家产品维护",
+            "type":"product"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年08月09日 15:08:56",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":2225,
+            "lastModifyDate":"2018年08月09日 15:08:56",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"商家订单维护",
+            "type":"agcy"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年08月09日 15:08:34",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":2224,
+            "lastModifyDate":"2018年08月09日 15:08:34",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"商家端订单读",
+            "type":"agcy"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年08月09日 14:01:39",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":2204,
+            "lastModifyDate":"2018年08月09日 14:01:39",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"商家端收款登记查看",
+            "type":"agcy"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年08月09日 14:02:09",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":2205,
+            "lastModifyDate":"2018年08月09日 14:02:09",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"商家端收款登记维护",
+            "type":"agcy"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年09月30日 11:57:06",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":102544,
+            "lastModifyDate":"2018年09月30日 14:46:40",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"商家对账单",
+            "type":"account"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月09日 09:58:22",
+            "creator":{
+                "id":23608,
+                "isConcerned":false,
+                "realName":"平台张德新",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"平台张德新",
+            "id":1640,
+            "lastModifyDate":"2018年10月17日 18:17:36",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"商家价格本查看",
+            "type":"agcy"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月09日 09:58:56",
+            "creator":{
+                "id":23608,
+                "isConcerned":false,
+                "realName":"平台张德新",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"平台张德新",
+            "id":1641,
+            "lastModifyDate":"2018年10月17日 18:17:19",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"商家价格本维护",
+            "type":"agcy"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年07月20日 16:20:56",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":2066,
+            "lastModifyDate":"2018年07月31日 12:57:23",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"商家列表读",
+            "type":"agcy"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年07月20日 16:22:19",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":2067,
+            "lastModifyDate":"2018年07月27日 12:14:35",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"商家列表商家新增",
+            "type":"agcy"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年07月12日 17:05:33",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":1944,
+            "lastModifyDate":"2018年07月12日 17:35:54",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"商家延保读",
+            "type":"appreciationmanage"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年07月12日 17:12:07",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":1964,
+            "lastModifyDate":"2018年07月12日 17:12:07",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"商家延保退款查看",
+            "type":"appreciationmanage"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年07月12日 17:13:14",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":1965,
+            "lastModifyDate":"2018年07月12日 17:13:14",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"商家延保退款审核",
+            "type":"appreciationmanage"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月09日 10:10:53",
+            "creator":{
+                "id":23608,
+                "isConcerned":false,
+                "realName":"平台张德新",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"平台张德新",
+            "id":1642,
+            "lastModifyDate":"2018年07月19日 14:30:45",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"商家优惠价格本查看",
+            "type":"agcy"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月09日 10:12:59",
+            "creator":{
+                "id":23608,
+                "isConcerned":false,
+                "realName":"平台张德新",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"平台张德新",
+            "id":1643,
+            "lastModifyDate":"2018年07月19日 14:30:31",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"商家优惠价格本维护",
+            "type":"agcy"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月13日 11:24:44",
+            "creator":{
+                "id":24489,
+                "isConcerned":false,
+                "realName":"梁云",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"梁云",
+            "id":1698,
+            "lastModifyDate":"2018年04月13日 11:24:44",
+            "lastModifyer":{
+                "id":24489,
+                "isConcerned":false,
+                "realName":"梁云",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"梁云",
+            "name":"收款单查看",
+            "type":"account"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月13日 11:32:10",
+            "creator":{
+                "id":24489,
+                "isConcerned":false,
+                "realName":"梁云",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"梁云",
+            "id":1702,
+            "lastModifyDate":"2018年04月13日 11:32:10",
+            "lastModifyer":{
+                "id":24489,
+                "isConcerned":false,
+                "realName":"梁云",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"梁云",
+            "name":"收款单维护",
+            "type":"account"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年07月20日 16:56:50",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":2084,
+            "lastModifyDate":"2018年07月20日 16:56:50",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"首页",
+            "type":"home"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月09日 15:58:18",
+            "creator":{
+                "id":13745,
+                "isConcerned":false,
+                "realName":"李荣起",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"李荣起",
+            "id":1668,
+            "lastModifyDate":"2018年04月09日 15:58:18",
+            "lastModifyer":{
+                "id":13745,
+                "isConcerned":false,
+                "realName":"李荣起",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"李荣起",
+            "name":"属性包查看",
+            "type":"product"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月09日 15:58:39",
+            "creator":{
+                "id":13745,
+                "isConcerned":false,
+                "realName":"李荣起",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"李荣起",
+            "id":1669,
+            "lastModifyDate":"2018年04月09日 15:58:39",
+            "lastModifyer":{
+                "id":13745,
+                "isConcerned":false,
+                "realName":"李荣起",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"李荣起",
+            "name":"属性包维护",
+            "type":"product"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年08月09日 15:18:43",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":2245,
+            "lastModifyDate":"2018年08月09日 15:18:43",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"提货地址编辑",
+            "type":"agcy"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年08月09日 15:18:14",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":2244,
+            "lastModifyDate":"2018年08月09日 15:18:14",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"提货地址读",
+            "type":"agcy"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年07月12日 17:14:47",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":1984,
+            "lastModifyDate":"2018年07月20日 16:17:05",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"提现申请读",
+            "type":"businessaudit"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年07月12日 17:16:08",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":1985,
+            "lastModifyDate":"2018年07月20日 16:16:57",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"提现申请审核",
+            "type":"businessaudit"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年07月12日 17:18:22",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":1986,
+            "lastModifyDate":"2018年07月20日 16:16:48",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"提现申请新增",
+            "type":"businessaudit"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月12日 12:09:28",
+            "creator":{
+                "id":23879,
+                "isConcerned":false,
+                "realName":"周晟",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"周晟",
+            "id":1684,
+            "lastModifyDate":"2018年07月20日 16:18:16",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"维修申请查看",
+            "type":"businessaudit"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月12日 12:10:14",
+            "creator":{
+                "id":23879,
+                "isConcerned":false,
+                "realName":"周晟",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"周晟",
+            "id":1685,
+            "lastModifyDate":"2018年08月09日 17:38:12",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"维修申请维护",
+            "type":"businessaudit"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年11月05日 16:22:30",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":102606,
+            "lastModifyDate":"2018年11月05日 16:22:30",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"问题反馈操作",
+            "type":"system"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年11月05日 15:53:12",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":102604,
+            "lastModifyDate":"2018年11月05日 15:53:12",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"问题反馈查看",
+            "type":"system"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年06月29日 12:02:46",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":1845,
+            "lastModifyDate":"2018年07月12日 19:30:52",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"我的账户",
+            "type":"accountmanage"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年06月29日 12:03:03",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":1846,
+            "lastModifyDate":"2018年06月29日 12:10:23",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"我的账户流水",
+            "type":"accountmanage"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年07月12日 17:30:40",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":2004,
+            "lastModifyDate":"2018年07月17日 11:59:17",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"消息提醒编辑",
+            "type":"home"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年07月11日 18:47:10",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":1924,
+            "lastModifyDate":"2018年07月23日 17:42:31",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"消息提醒读",
+            "type":"system"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年07月13日 15:38:35",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":2045,
+            "lastModifyDate":"2018年07月13日 15:38:35",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"巡视查看",
+            "type":"tasks"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年07月13日 15:38:14",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":2044,
+            "lastModifyDate":"2018年07月13日 15:38:14",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"巡视维护",
+            "type":"tasks"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年06月29日 12:05:11",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":1864,
+            "lastModifyDate":"2018年07月12日 19:17:19",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"延保产品编辑",
+            "type":"appreciationmanage"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年06月29日 12:04:07",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":1847,
+            "lastModifyDate":"2018年07月12日 19:17:04",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"延保产品查看",
+            "type":"appreciationmanage"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年06月29日 12:10:15",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":1884,
+            "lastModifyDate":"2018年07月12日 19:16:45",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"延保单查看",
+            "type":"appreciationmanage"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月09日 15:59:58",
+            "creator":{
+                "id":13745,
+                "isConcerned":false,
+                "realName":"李荣起",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"李荣起",
+            "id":1670,
+            "lastModifyDate":"2018年04月09日 15:59:58",
+            "lastModifyer":{
+                "id":13745,
+                "isConcerned":false,
+                "realName":"李荣起",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"李荣起",
+            "name":"页面配置查看",
+            "type":"business"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月09日 16:00:19",
+            "creator":{
+                "id":13745,
+                "isConcerned":false,
+                "realName":"李荣起",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"李荣起",
+            "id":1671,
+            "lastModifyDate":"2018年04月09日 16:00:19",
+            "lastModifyer":{
+                "id":13745,
+                "isConcerned":false,
+                "realName":"李荣起",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"李荣起",
+            "name":"页面配置维护",
+            "type":"business"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月12日 12:06:57",
+            "creator":{
+                "id":23879,
+                "isConcerned":false,
+                "realName":"周晟",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"周晟",
+            "id":1682,
+            "lastModifyDate":"2018年04月12日 12:06:57",
+            "lastModifyer":{
+                "id":23879,
+                "isConcerned":false,
+                "realName":"周晟",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"周晟",
+            "name":"异常查看",
+            "type":"tasks"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月12日 12:07:36",
+            "creator":{
+                "id":23879,
+                "isConcerned":false,
+                "realName":"周晟",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"周晟",
+            "id":1683,
+            "lastModifyDate":"2018年04月12日 12:07:36",
+            "lastModifyer":{
+                "id":23879,
+                "isConcerned":false,
+                "realName":"周晟",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"周晟",
+            "name":"异常维护",
+            "type":"tasks"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月13日 11:21:50",
+            "creator":{
+                "id":24489,
+                "isConcerned":false,
+                "realName":"梁云",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"梁云",
+            "id":1696,
+            "lastModifyDate":"2018年04月13日 11:21:50",
+            "lastModifyer":{
+                "id":24489,
+                "isConcerned":false,
+                "realName":"梁云",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"梁云",
+            "name":"应付工作台",
+            "type":"account"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月13日 11:29:42",
+            "creator":{
+                "id":24489,
+                "isConcerned":false,
+                "realName":"梁云",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"梁云",
+            "id":1700,
+            "lastModifyDate":"2018年04月13日 11:29:42",
+            "lastModifyer":{
+                "id":24489,
+                "isConcerned":false,
+                "realName":"梁云",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"梁云",
+            "name":"应付工作台维护",
+            "type":"account"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月13日 11:17:44",
+            "creator":{
+                "id":24489,
+                "isConcerned":false,
+                "realName":"梁云",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"梁云",
+            "id":1695,
+            "lastModifyDate":"2018年04月13日 11:17:44",
+            "lastModifyer":{
+                "id":24489,
+                "isConcerned":false,
+                "realName":"梁云",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"梁云",
+            "name":"应收工作台查看",
+            "type":"account"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月13日 11:28:55",
+            "creator":{
+                "id":24489,
+                "isConcerned":false,
+                "realName":"梁云",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"梁云",
+            "id":1699,
+            "lastModifyDate":"2018年04月13日 11:28:55",
+            "lastModifyer":{
+                "id":24489,
+                "isConcerned":false,
+                "realName":"梁云",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"梁云",
+            "name":"应收工作台维护",
+            "type":"account"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月12日 12:15:29",
+            "creator":{
+                "id":23879,
+                "isConcerned":false,
+                "realName":"周晟",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"周晟",
+            "id":1690,
+            "lastModifyDate":"2018年07月20日 16:17:48",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"预约申请查看",
+            "type":"businessaudit"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月12日 12:15:53",
+            "creator":{
+                "id":23879,
+                "isConcerned":false,
+                "realName":"周晟",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"周晟",
+            "id":1691,
+            "lastModifyDate":"2018年07月20日 16:17:40",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"预约申请维护",
+            "type":"businessaudit"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月09日 11:22:35",
+            "creator":{
+                "id":23608,
+                "isConcerned":false,
+                "realName":"平台张德新",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"平台张德新",
+            "id":1655,
+            "lastModifyDate":"2018年10月26日 10:07:19",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"账号管理编辑",
+            "type":"system"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月09日 11:11:04",
+            "creator":{
+                "id":23608,
+                "isConcerned":false,
+                "realName":"平台张德新",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"平台张德新",
+            "id":1654,
+            "lastModifyDate":"2018年07月20日 16:19:19",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"账号管理查看",
+            "type":"system"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月27日 18:22:42",
+            "creator":{
+                "id":13248,
+                "isConcerned":false,
+                "realName":"黄舜平",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"黄舜平",
+            "id":1724,
+            "lastModifyDate":"2018年07月20日 16:17:28",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"账期查看",
+            "type":"business"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月27日 18:23:01",
+            "creator":{
+                "id":13248,
+                "isConcerned":false,
+                "realName":"黄舜平",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"黄舜平",
+            "id":1725,
+            "lastModifyDate":"2018年07月20日 16:17:19",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"账期维护",
+            "type":"business"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月09日 16:04:12",
+            "creator":{
+                "id":13745,
+                "isConcerned":false,
+                "realName":"李荣起",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"李荣起",
+            "id":1676,
+            "lastModifyDate":"2018年04月09日 16:04:12",
+            "lastModifyer":{
+                "id":13745,
+                "isConcerned":false,
+                "realName":"李荣起",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"李荣起",
+            "name":"职能查看",
+            "type":"business"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月09日 16:04:49",
+            "creator":{
+                "id":13745,
+                "isConcerned":false,
+                "realName":"李荣起",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"李荣起",
+            "id":1677,
+            "lastModifyDate":"2018年04月09日 16:08:26",
+            "lastModifyer":{
+                "id":13745,
+                "isConcerned":false,
+                "realName":"李荣起",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"李荣起",
+            "name":"职能维护",
+            "type":"business"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月09日 16:02:50",
+            "creator":{
+                "id":13745,
+                "isConcerned":false,
+                "realName":"李荣起",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"李荣起",
+            "id":1675,
+            "lastModifyDate":"2018年04月09日 16:03:36",
+            "lastModifyer":{
+                "id":13745,
+                "isConcerned":false,
+                "realName":"李荣起",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"李荣起",
+            "name":"职位查看",
+            "type":"business"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月09日 16:02:38",
+            "creator":{
+                "id":13745,
+                "isConcerned":false,
+                "realName":"李荣起",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"李荣起",
+            "id":1674,
+            "lastModifyDate":"2018年04月09日 16:03:28",
+            "lastModifyer":{
+                "id":13745,
+                "isConcerned":false,
+                "realName":"李荣起",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"李荣起",
+            "name":"职位维护",
+            "type":"business"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月09日 16:09:32",
+            "creator":{
+                "id":13745,
+                "isConcerned":false,
+                "realName":"李荣起",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"李荣起",
+            "id":1678,
+            "lastModifyDate":"2018年04月09日 16:09:49",
+            "lastModifyer":{
+                "id":13745,
+                "isConcerned":false,
+                "realName":"李荣起",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"李荣起",
+            "name":"组织查看",
+            "type":"business"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年07月22日 22:37:59",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":2104,
+            "lastModifyDate":"2018年07月30日 17:54:35",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"组织批量导入",
+            "type":"business"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年04月09日 16:12:38",
+            "creator":{
+                "id":13745,
+                "isConcerned":false,
+                "realName":"李荣起",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"李荣起",
+            "id":1679,
+            "lastModifyDate":"2018年09月04日 18:20:34",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"组织维护",
+            "type":"business"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年06月22日 19:22:10",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":1824,
+            "lastModifyDate":"2018年07月12日 19:30:12",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"组织账户",
+            "type":"accountmanage"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年07月12日 19:31:48",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":2024,
+            "lastModifyDate":"2018年07月12日 19:31:48",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"组织账户编辑",
+            "type":"accountmanage"
+        },
+        {
+            "catalog":"group1",
+            "createdate":"2018年06月29日 12:01:36",
+            "creator":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "creatorName":"开发人员",
+            "id":1844,
+            "lastModifyDate":"2018年06月29日 12:10:01",
+            "lastModifyer":{
+                "id":24579,
+                "isConcerned":false,
+                "realName":"开发人员",
+                "relatioinDeptIds":[
+
+                ],
+                "relatioinDeptIdsWithoutSelf":[
+
+                ]
+            },
+            "lastModifyerName":"开发人员",
+            "name":"组织账户流水",
+            "type":"accountmanage"
+        }
+    ],
+    "success":true
+}

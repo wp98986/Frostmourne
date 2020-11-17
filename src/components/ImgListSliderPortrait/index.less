@@ -1,0 +1,42 @@
+.slider {
+  text-align: center;
+
+  .sliderBody {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .pageBtn {
+    outline: none;
+    line-height: 1;
+    width: 36px;
+    height: 72px;
+  }
+  :global {
+    .swiper-container {
+      height: 500px;
+    }
+
+    .swiper-slide {
+      padding: 0 6px;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      img {
+        border-radius: 4px;
+        border: 1px solid #eee;
+      }
+    }
+    .swiper-button-prev,
+    .swiper-button-next {
+      background-size: 14px 22px;
+      width: 14px;
+      height: 22px;
+      position: static;
+      transform: rotate(90deg);
+      margin-top: 0;
+      display: inline-block;
+    }
+  }
+}

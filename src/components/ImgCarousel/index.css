@@ -1,0 +1,54 @@
+.imgCarouselBox {
+	width: 890px;
+	overflow: auto;
+	margin: 0 auto;
+}
+
+.imgCarousel {
+	width: 140px;
+	/* height: 140px; */
+	border-radius: 8px;
+	margin-right: 10px;
+	cursor: pointer;
+	display: inline-block;
+}
+
+.srcImgBox {
+	text-align: center;
+}
+
+.srcImg {
+	width: 890px;
+	/* height: 890px; */
+	border-radius: 8px;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.imgCarouselBox::-webkit-scrollbar {
+	display: none;
+}
+
+.prevBtn {
+	padding: 5px;
+	display: flex;
+	align-items: center;
+	background: rgba(0, 0, 0, 0.3);
+	color: #fff;
+	cursor: pointer;
+	margin-right: 10px;
+}
+
+.nextBtn {
+	padding: 5px;
+	display: flex;
+	align-items: center;
+	background: rgba(0, 0, 0, 0.3);
+	color: #fff;
+	cursor: pointer;
+}
+
+.imgBtnBox {
+	display: flex;
+	width: 890px;
+}

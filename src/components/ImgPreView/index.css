@@ -1,0 +1,74 @@
+.imgViewContainer {
+  display: flex;
+  /* height: 600px; */
+}
+
+:global(.imgViewBigImg) img,
+:global(.imgViewBigImg) {
+  width: 600px;
+  height: 600px;
+}
+
+:global(.imgViewBigImg) {
+  position: relative;
+}
+
+.vrlink {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 110px;
+  height: 36px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+}
+.vricon {
+  display: inline-block;
+  width: 51px;
+  height: 36px;
+  background-image: url('../../assets/vrpreview.png');
+}
+
+.downloadIcon {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  width: 18px !important;
+  height: 18px !important;
+  border: none !important;
+  cursor: pointer;
+  text-align: center;
+  line-height: 18px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+:global(.imgViewImgList) {
+  overflow: auto;
+}
+
+:global(.imgViewImgList)::-webkit-scrollbar {
+  width: 5px;
+}
+
+:global(.imgViewImgList)::-webkit-scrollbar-thumb {
+  background-color: #aaa;
+}
+
+:global(.imgViewImgList) img {
+  width: 150px;
+  height: 150px;
+  margin: 0;
+  cursor: pointer;
+}
+
+:global(.defaultImgStyle) {
+  border: 2px solid transparent;
+}
+
+.activeImgStyle {
+  box-shadow: 0 3px 9px 0 hsla(0, 0%, 64.7%, 0.22);
+}

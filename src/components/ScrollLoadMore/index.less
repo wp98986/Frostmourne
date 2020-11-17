@@ -1,0 +1,24 @@
+.scrollLoadMore {
+  .loading {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    color: #a7a7a7;
+    :global(.anticon) {
+      margin-left: 10px;
+    }
+  }
+  .noMore {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: 38px;
+    color: #a7a7a7;
+    :global(.anticon) {
+      margin-right: 10px;
+    }
+  }
+  :global(.infinite-scroll-component) {
+    overflow-y: hidden !important;
+  }
+}

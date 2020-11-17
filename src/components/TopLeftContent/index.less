@@ -1,0 +1,70 @@
+@import '~antd/lib/style/themes/default.less';
+
+.loginModal {
+  .loginBtn {
+    // text-align: center;
+    margin-top: 20px;
+    .btnActive {
+      border-color: #333;
+      background-color: #333;
+    }
+  }
+  .errorMessage {
+    float: right;
+    color: #c8000c;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  a {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #333;
+    display: inline-block;
+  }
+  :global {
+    .ant-input {
+      font-size: 12px;
+      line-height: 34px;
+      height: 34px;
+      border: none;
+      border-bottom: 1px solid #999;
+      padding: 0;
+      width: 100%;
+      box-shadow: none !important;
+      border-radius: 0;
+    }
+    .ant-modal-header {
+      margin-bottom: -16px;
+      border: none;
+    }
+    .ant-btn {
+      border-color: #333;
+      color: #333;
+    }
+    .ant-btn-primary {
+      background-color: #999;
+      border-color: #999;
+      color: #fff;
+    }
+  }
+}
+
+:global {
+  .ant-dropdown {
+    top: 44px !important;
+  }
+  .ant-dropdown-menu-item-active {
+    background-color: #cf0000 !important;
+    color: #f3f3f3;
+  }
+  .sliderContainer {
+    width: 100%;
+  }
+}
+
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
