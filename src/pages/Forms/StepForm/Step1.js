@@ -1,9 +1,9 @@
 import React, { Fragment } from 'react';
-import { connect } from 'dva';
+import { connect, history } from 'umi';
 import { Form } from '@ant-design/compatible';
 import '@ant-design/compatible/assets/index.css';
 import { Input, Button, Select, Divider } from 'antd';
-import router from 'umi/router';
+
 import styles from './style.less';
 
 const { Option } = Select;
@@ -32,7 +32,7 @@ class Step1 extends React.PureComponent {
             type: 'form/saveStepFormData',
             payload: values,
           });
-          router.push('/form/step-form/confirm');
+          history.push('/form/step-form/confirm');
         }
       });
     };

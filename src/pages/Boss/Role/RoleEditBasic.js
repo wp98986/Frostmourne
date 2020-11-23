@@ -1,7 +1,6 @@
 import React, { PureComponent, Fragment } from 'react';
-import { connect } from 'dva';
-import { formatMessage } from 'umi/locale';
-import router from 'umi/router';
+import { connect, history, formatMessage } from 'umi';
+
 import { Form } from '@ant-design/compatible';
 import '@ant-design/compatible/assets/index.css';
 import { Input, Button } from 'antd';
@@ -26,13 +25,6 @@ class RoleEditBasic extends PureComponent {
     // if(data.router === 'second'){
     this.setBaseInfo(data);
     // }
-  }
-
-  UNSAFE_componentWillReceiveProps(nextProps) {
-    const { data } = this.props;
-    if (JSON.stringify(data) !== JSON.stringify(nextProps.data)) {
-      this.setBaseInfo(nextProps.data);
-    }
   }
 
   setBaseInfo = data => {
@@ -64,6 +56,13 @@ class RoleEditBasic extends PureComponent {
     return id;
   };
 
+  UNSAFE_componentWillReceiveProps(nextProps) {
+    const { data } = this.props;
+    if (JSON.stringify(data) !== JSON.stringify(nextProps.data)) {
+      this.setBaseInfo(nextProps.data);
+    }
+  }
+
   render() {
     const {
       form,
@@ -81,9 +80,9 @@ class RoleEditBasic extends PureComponent {
             payload,
           });
           if (this.getId()) {
-            router.push(`/setting/role/edit/advanced/${this.getId()}`);
+            history.push(`/setting/role/edit/advanced/${this.getId()}`);
           } else {
-            router.push(`/setting/role/add/advanced`);
+            history.push(`/setting/role/add/advanced`);
           }
         }
       });
@@ -179,9 +178,10 @@ class RoleEditBasic extends PureComponent {
             })(<Input placeholder="请输入排序号" />)}
           </FormItem>
           <FormItem {...formItemLayout} label="备注">
-            {getFieldDecorator('remark', {})(
-              <TextArea placeholder="填写备注" autosize={{ minRows: 2, maxRows: 6 }} />
-            )}
+            {getFieldDecorator(
+              'remark',
+              {}
+            )(<TextArea placeholder="填写备注" autosize={{ minRows: 2, maxRows: 6 }} />)}
           </FormItem>
           <FormItem
             wrapperCol={{

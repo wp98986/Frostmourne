@@ -1,7 +1,7 @@
 import deepEqual from 'lodash/isEqual';
 import memoizeOne from 'memoize-one';
 
-import { formatMessage } from 'umi/locale';
+import { formatMessage } from 'umi';
 
 import siteRoutes from '@config/site.router';
 import bossRoutes from '@config/boss.router';

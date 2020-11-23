@@ -1,5 +1,4 @@
 import {
-  query as queryUsers,
   queryCurrent,
   savePersonalInfo,
   queryChangeList,
@@ -14,7 +13,7 @@ import {
   settradepassword,
 } from '@/services/user';
 import { addOrg } from '@/services/org';
-import router from 'umi/router';
+import { history } from 'umi';
 
 export default {
   namespace: 'user',
@@ -27,17 +26,10 @@ export default {
   },
 
   effects: {
-    *fetch(_, { call, put }) {
-      const response = yield call(queryUsers);
-      yield put({
-        type: 'save',
-        payload: response,
-      });
-    },
     *fetchCurrent({ callback }, { call, put }) {
       const response = yield call(queryCurrent);
       if (!response) {
-        router.push(`/user/login`);
+        history.push(`/user/login`);
         return;
       }
       yield put({

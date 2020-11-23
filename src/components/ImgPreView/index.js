@@ -1,8 +1,8 @@
 import React from 'react';
 import Zmage from 'react-zmage';
 import { VerticalAlignBottomOutlined } from '@ant-design/icons';
-import styles from './index.css';
 import ImgListSlider from '@/components/ImgListSlider';
+import styles from './index.css';
 // import nophoto from '@/assets/nophoto.jpg';
 
 class ImgPreView extends React.Component {
@@ -15,15 +15,6 @@ class ImgPreView extends React.Component {
   //     imgSrc: picUrls[0],
   //   };
   // }
-
-  UNSAFE_componentWillReceiveProps(nextProps) {
-    const { data: picUrls = [] } = nextProps;
-    this.setState({
-      picUrls,
-      imgSrc: picUrls[0],
-      activeIndex: 0,
-    });
-  }
 
   imgClick = (imgSrc, index) => {
     this.setState({
@@ -44,6 +35,15 @@ class ImgPreView extends React.Component {
     a.href = cdnUrl; // 将生成的URL设置为a.href属性
     a.dispatchEvent(event); // 触发a的单击事件
   };
+
+  UNSAFE_componentWillReceiveProps(nextProps) {
+    const { data: picUrls = [] } = nextProps;
+    this.setState({
+      picUrls,
+      imgSrc: picUrls[0],
+      activeIndex: 0,
+    });
+  }
 
   render() {
     const { imgSrc = '', picUrls = [], activeIndex } = this.state;

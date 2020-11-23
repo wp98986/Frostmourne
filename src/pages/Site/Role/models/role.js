@@ -4,7 +4,6 @@ import {
   addRole,
   updateRole,
   deleteRole,
-  addPermission,
   saveFunctions,
   siteFunctions,
   fecthApps,
@@ -57,11 +56,7 @@ export default {
       if (!response) return;
       callback(response);
     },
-    *addPermission({ payload, callback }, { call }) {
-      const response = yield call(addPermission, payload);
-      if (!response) return;
-      callback(response);
-    },
+
     *saveFunctions({ payload, callback }, { call }) {
       const response = yield call(saveFunctions, payload);
       if (!response) return;

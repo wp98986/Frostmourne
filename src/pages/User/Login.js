@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import { connect } from 'dva';
-import { formatMessage, FormattedMessage } from 'umi/locale';
-import Link from 'umi/link';
-import router from 'umi/router';
+import { connect, Link, history, formatMessage, FormattedMessage } from 'umi';
+
 import moment from 'moment';
 import { Alert, message } from 'antd';
 import Login from '@/components/Login';
@@ -90,7 +88,7 @@ class LoginPage extends Component {
           const msg = data ? data.message : errorMessage;
           if (data.code === '203') {
             message.success('登录成功');
-            router.push('/');
+            history.push('/');
           } else {
             if (APP_TYPE === 'site') {
               const errorTimes = JSON.parse(localStorage.getItem('SITEerrorTimes')) || {};

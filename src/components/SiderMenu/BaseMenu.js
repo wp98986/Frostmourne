@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 import { createFromIconfontCN } from '@ant-design/icons';
 import { Menu } from 'antd';
-import Link from 'umi/link';
+import { Link } from 'umi';
 import isEqual from 'lodash/isEqual';
 import memoizeOne from 'memoize-one';
 import pathToRegexp from 'path-to-regexp';

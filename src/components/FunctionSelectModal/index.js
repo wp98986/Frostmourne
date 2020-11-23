@@ -1,9 +1,9 @@
 import React, { PureComponent } from 'react';
-import { connect } from 'dva';
-import { formatMessage } from 'umi/locale';
+import { connect, formatMessage } from 'umi';
+
 import { Form } from '@ant-design/compatible';
 import '@ant-design/compatible/assets/index.css';
-// import router from 'umi/router';
+// import { history } from 'umi';
 import { message, Modal } from 'antd';
 import FunctionsCheckbox from '@/components/FunctionsCheckbox';
 import functionConstant from '@/constants/functionConstant';

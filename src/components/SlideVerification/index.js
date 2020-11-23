@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { connect } from 'dva';
+import { connect } from 'umi';
 import $ from 'jquery';
 import styles from './index.less';
 import jigsaw from './jigsaw';

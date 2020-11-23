@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import { connect } from 'dva';
+import { connect } from 'umi';
 import moment from 'moment';
 import classNames from 'classnames';
 import { Form } from '@ant-design/compatible';
@@ -9,8 +9,8 @@ import StandardTable from '@/components/StandardTable';
 import DropDownSelect from '@/components/DropDownSelect';
 import { validatorPhone } from '@/utils/formUtils';
 // import { getBtns } from '@/utils/authority';
-import MaterielCodeModal from './MaterielCodeModal';
 import iconSearch from '@/assets/designer/icon/search.png';
+import MaterielCodeModal from './MaterielCodeModal';
 
 import styles from './OrgInfo.less';
 

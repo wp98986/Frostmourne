@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import { connect } from 'dva';
-// import { formatMessage, FormattedMessage } from 'umi/locale';
-// import Link from 'umi/link';
-import router from 'umi/router';
+import { connect, history } from 'umi';
+// import { formatMessage, FormattedMessage } from 'umi';
+// import {Link} from 'umi';
 import { Alert, message } from 'antd';
 import Login from '@/components/Login';
 import styles from './Login.less';
@@ -75,7 +74,7 @@ class ModPwd extends Component {
             dispatch({
               type: 'login/logout',
             });
-            router.push('/user');
+            history.push('/user');
           } else {
             message.error(`修改失败，${msg}`);
           }

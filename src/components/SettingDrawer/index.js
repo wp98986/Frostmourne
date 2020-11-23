@@ -2,9 +2,10 @@ import React, { PureComponent } from 'react';
 import { Icon as LegacyIcon } from '@ant-design/compatible';
 import { CopyOutlined } from '@ant-design/icons';
 import { Select, message, Drawer, List, Switch, Divider, Button, Alert, Tooltip } from 'antd';
-import { formatMessage } from 'umi/locale';
+import { connect, formatMessage } from 'umi';
+
 import { CopyToClipboard } from 'react-copy-to-clipboard';
-import { connect } from 'dva';
+
 import omit from 'omit.js';
 import styles from './index.less';
 import ThemeColor from './ThemeColor';

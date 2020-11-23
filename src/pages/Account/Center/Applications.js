@@ -1,8 +1,13 @@
 import React, { PureComponent } from 'react';
-import { DownloadOutlined, EditOutlined, EllipsisOutlined, ShareAltOutlined } from '@ant-design/icons';
+import {
+  DownloadOutlined,
+  EditOutlined,
+  EllipsisOutlined,
+  ShareAltOutlined,
+} from '@ant-design/icons';
 import { List, Card, Dropdown, Menu, Avatar, Tooltip } from 'antd';
 import numeral from 'numeral';
-import { connect } from 'dva';
+import { connect } from 'umi';
 import { formatWan } from '@/utils/utils';
 import stylesApplications from '../../List/Applications.less';
 

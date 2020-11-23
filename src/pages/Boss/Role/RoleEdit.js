@@ -1,5 +1,5 @@
 import React, { PureComponent, Fragment } from 'react';
-import { connect } from 'dva';
+import { connect } from 'umi';
 import { Form } from '@ant-design/compatible';
 import '@ant-design/compatible/assets/index.css';
 import { Card, Steps } from 'antd';

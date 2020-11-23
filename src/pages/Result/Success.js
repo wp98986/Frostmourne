@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { formatMessage, FormattedMessage } from 'umi/locale';
+import { formatMessage, FormattedMessage } from 'umi';
 import { DingdingOutlined } from '@ant-design/icons';
 import { Button, Row, Col, Steps, Card } from 'antd';
 import Result from '@/components/Result';

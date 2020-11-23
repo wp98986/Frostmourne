@@ -1,14 +1,13 @@
 import React, { Component, Fragment } from 'react';
-import { formatMessage, FormattedMessage } from 'umi/locale';
+import { history, connect, formatMessage, FormattedMessage } from 'umi';
+
 import { ClusterOutlined, HomeOutlined, UserOutlined } from '@ant-design/icons';
 import { Form } from '@ant-design/compatible';
 import '@ant-design/compatible/assets/index.css';
 import { Input, Button, Radio, message } from 'antd';
-import { connect } from 'dva';
 import AvatarView from '@/components/AvatarView';
 import AreaSelect from '@/components/AreaSelect';
-import router from 'umi/router';
-import styles from './BaseView.less';
+
 import { getPage } from '@/utils/authority';
 import {
   validatorPhone,
@@ -16,6 +15,7 @@ import {
   // validatorIdCard,
   validatorUserName,
 } from '@/utils/formUtils';
+import styles from './BaseView.less';
 
 // import { getTimeDistance } from '@/utils/utils';
 
@@ -229,7 +229,7 @@ class PersonalView extends Component {
   };
 
   goInvite = () => {
-    router.push('/basic/settings/invitedorg');
+    history.push('/basic/settings/invitedorg');
   };
 
   render() {

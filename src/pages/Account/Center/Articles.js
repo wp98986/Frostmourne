@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 import { Icon as LegacyIcon } from '@ant-design/compatible';
 import { List, Tag } from 'antd';
-import { connect } from 'dva';
+import { connect } from 'umi';
 import ArticleListContent from '@/components/ArticleListContent';
 import styles from './Articles.less';
 

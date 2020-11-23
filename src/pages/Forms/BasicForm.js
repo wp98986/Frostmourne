@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
-import { connect } from 'dva';
-import { formatMessage, FormattedMessage } from 'umi/locale';
+import { connect, formatMessage, FormattedMessage } from 'umi';
+
 import { InfoCircleOutlined } from '@ant-design/icons';
 import { Form } from '@ant-design/compatible';
 import '@ant-design/compatible/assets/index.css';

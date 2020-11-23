@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
-import { connect } from 'dva';
-import router from 'umi/router';
+import { connect, history } from 'umi';
+
 import moment from 'moment';
 import { PlusOutlined } from '@ant-design/icons';
 import { Form } from '@ant-design/compatible';
@@ -131,11 +131,11 @@ class PropertyBagList extends PureComponent {
   };
 
   toAdd = () => {
-    router.push('/setting/propertybag/add');
+    history.push('/setting/propertybag/add');
   };
 
   toView = id => {
-    router.push(VIEW_PATH + id);
+    history.push(VIEW_PATH + id);
   };
 
   del = id => {

@@ -1,7 +1,7 @@
 import React from 'react';
 import { CheckOutlined } from '@ant-design/icons';
 import { Tooltip } from 'antd';
-import { formatMessage } from 'umi/locale';
+import { formatMessage } from 'umi';
 import styles from './ThemeColor.less';
 
 const Tag = ({ color, check, ...rest }) => (

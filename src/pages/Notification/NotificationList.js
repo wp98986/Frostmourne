@@ -1,5 +1,5 @@
 import React from 'react';
-import { connect } from 'dva';
+import { connect } from 'umi';
 import moment from 'moment';
 import { Card, List, Pagination } from 'antd';
 import classNames from 'classnames';
@@ -81,40 +81,36 @@ class NotificationList extends React.Component {
     return (
       <PageHeaderWrapper title="消息列表">
         <div className={styles.standardList}>
-          {
-            <Card className={styles.card} bordered={false}>
-              <div className={styles.tableList}>
-                <Card
-                  className={styles.listCard}
-                  bordered={false}
-                  bodyStyle={{ padding: '0 32px 40px 32px' }}
-                >
-                  <List
-                    size="large"
-                    rowKey="id"
-                    loading={loading}
-                    dataSource={list}
-                    renderItem={item => (
-                      <List.Item
-                        actions={[<a onClick={e => this.setNoticeRead(item, e)}>去处理</a>]}
-                      >
-                        <ListContent data={item} />
-                      </List.Item>
-                    )}
-                  />
-                </Card>
-              </div>
-              <div className={styles.noticePaination}>
-                <Pagination
-                  showTotal={total => `共 ${total} 条数据`}
-                  current={pagination.current}
-                  defaultPageSize={pagination.pageSize}
-                  total={pagination.total}
-                  onChange={this.pageChange}
+          <Card className={styles.card} bordered={false}>
+            <div className={styles.tableList}>
+              <Card
+                className={styles.listCard}
+                bordered={false}
+                bodyStyle={{ padding: '0 32px 40px 32px' }}
+              >
+                <List
+                  size="large"
+                  rowKey="id"
+                  loading={loading}
+                  dataSource={list}
+                  renderItem={item => (
+                    <List.Item actions={[<a onClick={e => this.setNoticeRead(item, e)}>去处理</a>]}>
+                      <ListContent data={item} />
+                    </List.Item>
+                  )}
                 />
-              </div>
-            </Card>
-          }
+              </Card>
+            </div>
+            <div className={styles.noticePaination}>
+              <Pagination
+                showTotal={total => `共 ${total} 条数据`}
+                current={pagination.current}
+                defaultPageSize={pagination.pageSize}
+                total={pagination.total}
+                onChange={this.pageChange}
+              />
+            </div>
+          </Card>
         </div>
       </PageHeaderWrapper>
     );

@@ -1,7 +1,6 @@
 import React, { PureComponent, Fragment } from 'react';
-import { connect } from 'dva';
-import { formatMessage } from 'umi/locale';
-import router from 'umi/router';
+import { connect, history, formatMessage } from 'umi';
+
 import { Form } from '@ant-design/compatible';
 import '@ant-design/compatible/assets/index.css';
 import { Button, message } from 'antd';
@@ -31,13 +30,6 @@ class RoleEditAdvanced extends PureComponent {
     //   this.setBaseInfo(data);
     // }
     this.setBaseInfo(data);
-  }
-
-  UNSAFE_componentWillReceiveProps(nextProps) {
-    const { data } = this.props;
-    if (JSON.stringify(data) !== JSON.stringify(nextProps.data)) {
-      this.setBaseInfo(nextProps.data);
-    }
   }
 
   setBaseInfo = data => {
@@ -105,7 +97,7 @@ class RoleEditAdvanced extends PureComponent {
             const { data: res } = result;
             if (res.code === '203') {
               message.success('保存成功');
-              router.push(`/setting/role/view/${res.resultId}`);
+              history.push(`/setting/role/view/${res.resultId}`);
             } else {
               message.error(`保存失败，${res.message}`);
             }
@@ -128,6 +120,13 @@ class RoleEditAdvanced extends PureComponent {
     this.setState({ functionIds });
     setFieldsValue({ functionIds });
   };
+
+  UNSAFE_componentWillReceiveProps(nextProps) {
+    const { data } = this.props;
+    if (JSON.stringify(data) !== JSON.stringify(nextProps.data)) {
+      this.setBaseInfo(nextProps.data);
+    }
+  }
 
   render() {
     const {
@@ -162,9 +161,9 @@ class RoleEditAdvanced extends PureComponent {
         }
       });
       if (this.getId()) {
-        router.push(`/setting/role/edit/basic/${this.getId()}`);
+        history.push(`/setting/role/edit/basic/${this.getId()}`);
       } else {
-        router.push(`/setting/role/add/basic`);
+        history.push(`/setting/role/add/basic`);
       }
     };
 

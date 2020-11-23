@@ -1,8 +1,8 @@
 import React, { Component, Fragment } from 'react';
 import Debounce from 'lodash-decorators/debounce';
 import Bind from 'lodash-decorators/bind';
-import { connect } from 'dva';
-import router from 'umi/router';
+import { connect, history } from 'umi';
+
 import { Button, Card, message } from 'antd';
 import DescriptionList from '@/components/DescriptionList';
 import PageHeaderWrapper from '@/components/PageHeaderWrapper';
@@ -66,7 +66,7 @@ class AppView extends Component {
 
   toEdit = () => {
     const id = this.getId();
-    router.push(`/setting/app/edit/${id}`);
+    history.push(`/setting/app/edit/${id}`);
   };
 
   delete = () => {
@@ -79,7 +79,7 @@ class AppView extends Component {
         const { data } = result;
         if (data.code === '203') {
           message.success('删除成功');
-          router.push(`/setting/app`);
+          history.push(`/setting/app`);
         } else {
           message.error(`删除失败，${data.message}`);
         }

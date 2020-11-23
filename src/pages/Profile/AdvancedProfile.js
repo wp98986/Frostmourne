@@ -1,8 +1,13 @@
 import React, { Component, Fragment } from 'react';
 import Debounce from 'lodash-decorators/debounce';
 import Bind from 'lodash-decorators/bind';
-import { connect } from 'dva';
-import { DingdingOutlined, EllipsisOutlined, FrownOutlined, InfoCircleOutlined } from '@ant-design/icons';
+import { connect } from 'umi';
+import {
+  DingdingOutlined,
+  EllipsisOutlined,
+  FrownOutlined,
+  InfoCircleOutlined,
+} from '@ant-design/icons';
 import {
   Button,
   Menu,

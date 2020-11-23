@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
-import { connect } from 'dva';
-import router from 'umi/router';
+import { connect, history } from 'umi';
+
 import { DownOutlined, UpOutlined } from '@ant-design/icons';
 import { Form } from '@ant-design/compatible';
 import '@ant-design/compatible/assets/index.css';
@@ -161,7 +161,7 @@ class SimpleTableList extends PureComponent {
     // this.setState({
     //   modalVisible: !!flag,
     // });
-    router.push('/boss/org/edit');
+    history.push('/boss/org/edit');
   };
 
   renderSimpleForm() {

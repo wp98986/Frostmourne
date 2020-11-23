@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import { FormattedMessage, formatMessage } from 'umi/locale';
+import { FormattedMessage, formatMessage, history } from 'umi';
 
 import {
   BankOutlined,
@@ -19,7 +19,7 @@ import '@ant-design/compatible/assets/index.css';
 
 // import { Spin, Tag, Menu, Icon, Dropdown, Avatar, Tooltip } from 'antd';
 import { Spin, Tag, Menu, Dropdown, Avatar, Button, Input, Modal } from 'antd';
-import router from 'umi/router';
+
 import moment from 'moment';
 import groupBy from 'lodash/groupBy';
 import AreaSelect from '@/components/AreaSelect';
@@ -301,7 +301,7 @@ class GlobalHeaderRight extends PureComponent {
               popupAlign={{ offset: [20, -16] }}
               clearClose
               showViewMore
-              onViewMore={() => router.push('/notification/mynotice/list')}
+              onViewMore={() => history.push('/notification/mynotice/list')}
               setNoticeRead={this.setNoticeRead}
             >
               <NoticeIcon.Tab

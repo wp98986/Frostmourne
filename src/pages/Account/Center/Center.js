@@ -1,7 +1,6 @@
 import React, { PureComponent } from 'react';
-import { connect } from 'dva';
-import Link from 'umi/link';
-import router from 'umi/router';
+import { connect, Link, history } from 'umi';
+
 import { PlusOutlined } from '@ant-design/icons';
 import { Card, Row, Col, Avatar, Tag, Divider, Spin, Input } from 'antd';
 // import { Card, Row, Col, Avatar, Divider, Spin } from 'antd
@@ -42,13 +41,13 @@ class Center extends PureComponent {
     const { match } = this.props;
     switch (key) {
       case 'department':
-        router.push(`${match.url}/department`);
+        history.push(`${match.url}/department`);
         break;
       case 'applications':
-        router.push(`${match.url}/applications`);
+        history.push(`${match.url}/applications`);
         break;
       case 'projects':
-        router.push(`${match.url}/projects`);
+        history.push(`${match.url}/projects`);
         break;
       default:
         break;

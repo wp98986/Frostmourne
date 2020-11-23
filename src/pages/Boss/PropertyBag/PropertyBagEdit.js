@@ -3,8 +3,8 @@ import { Form, Icon as LegacyIcon } from '@ant-design/compatible';
 import '@ant-design/compatible/assets/index.css';
 import { ExclamationCircleOutlined } from '@ant-design/icons';
 import { Card, Button, Col, Row, Input, Select, Popover, message } from 'antd';
-import router from 'umi/router';
-import { connect } from 'dva';
+import { history, connect } from 'umi';
+
 import FooterToolbar from '@/components/FooterToolbar';
 import PageHeaderWrapper from '@/components/PageHeaderWrapper';
 import SelectEnum from '@/components/SelectEnum';
@@ -155,7 +155,7 @@ class AdvancedForm extends PureComponent {
             const { data } = result;
             if (data.code === '203') {
               message.success('保存成功');
-              router.push(`/setting/propertybag/view/${data.resultId}`);
+              history.push(`/setting/propertybag/view/${data.resultId}`);
             } else {
               let msg = '';
               if (data.message) msg = `，${data.message}`;
