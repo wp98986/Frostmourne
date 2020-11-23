@@ -2,9 +2,8 @@ import React, { Component } from 'react';
 import { Dropdown, Menu, Modal, Input, Button } from 'antd';
 // import SlideVerification from '@/components/SlideVerification';
 import BlockSlider from '@/components/BlockSlider';
-import router from 'umi/router';
+import { history, connect } from 'umi';
 import moment from 'moment';
-import { connect } from 'dva';
 
 import styles from './index.less';
 
@@ -48,11 +47,11 @@ class TopLeftContent extends Component {
   handleMenuClick = ({ key }) => {
     const { dispatch } = this.props;
     if (key === 'info') {
-      router.push('/');
+      history.push('/');
       return;
     }
     if (key === 'modpwd') {
-      router.push('/user/modpwd');
+      history.push('/user/modpwd');
       return;
     }
     if (key === 'logout') {

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { connect } from 'dva';
+import { connect } from 'umi';
 import moment from 'moment';
 import { PlusOutlined } from '@ant-design/icons';
 import { Modal, Table, Button, message, Popconfirm, Divider } from 'antd';

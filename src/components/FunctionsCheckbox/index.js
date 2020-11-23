@@ -18,14 +18,6 @@ class FunctionsCheckbox extends Component {
     if (dataSource) this.setState({ dataSource });
   }
 
-  UNSAFE_componentWillReceiveProps(nextProps) {
-    const { initialValue, dataSource: newSource } = nextProps;
-    if (newSource.length > 0) {
-      this.setState({ dataSource: newSource });
-    }
-    this.setState({ checkedList: initialValue });
-  }
-
   onChange = checkedList => {
     const { dataSource } = this.state;
     const { onChange } = this.props;
@@ -51,6 +43,14 @@ class FunctionsCheckbox extends Component {
       onChange(checkedIds);
     }, 300);
   };
+
+  UNSAFE_componentWillReceiveProps(nextProps) {
+    const { initialValue, dataSource: newSource } = nextProps;
+    if (newSource.length > 0) {
+      this.setState({ dataSource: newSource });
+    }
+    this.setState({ checkedList: initialValue });
+  }
 
   renderDataDom() {
     const { dataSource } = this.state;
@@ -95,7 +95,6 @@ class FunctionsCheckbox extends Component {
 
   render() {
     const { indeterminate, checkAll, checkedList } = this.state;
-    console.log(this.renderDataDom());
     return (
       <div className={styles.checkBox}>
         <div style={{ borderBottom: '1px solid #E9E9E9' }}>

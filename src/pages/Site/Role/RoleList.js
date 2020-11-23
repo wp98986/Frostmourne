@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
-import { formatMessage } from 'umi/locale';
-import { connect } from 'dva';
+import { connect, formatMessage } from 'umi';
+
 import { PlusOutlined, UserOutlined } from '@ant-design/icons';
 import { Form } from '@ant-design/compatible';
 import '@ant-design/compatible/assets/index.css';

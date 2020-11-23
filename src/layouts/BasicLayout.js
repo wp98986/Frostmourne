@@ -3,13 +3,13 @@ import { Layout } from 'antd';
 import DocumentTitle from 'react-document-title';
 import deepEqual from 'lodash/isEqual';
 import memoizeOne from 'memoize-one';
-import { connect } from 'dva';
-// import router from 'umi/router';
+import { connect, formatMessage } from 'umi';
+
 import { ContainerQuery } from 'react-container-query';
 import classNames from 'classnames';
 import pathToRegexp from 'path-to-regexp';
 import { enquireScreen, unenquireScreen } from 'enquire-js';
-import { formatMessage } from 'umi/locale';
+
 import SiderMenu from '@/components/SiderMenu';
 import Authorized from '@/utils/Authorized';
 import SettingDrawer from '@/components/SettingDrawer';
@@ -121,7 +121,7 @@ class BasicLayout extends React.PureComponent {
             });
           }
         } else {
-          // router.push(`/user/login`);
+          // history.push(`/user/login`);
         }
       },
     });

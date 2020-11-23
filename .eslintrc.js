@@ -33,6 +33,7 @@ module.exports = {
     'linebreak-style': [0, 2, 'windows'],
     'no-console': [2],
     'no-alert': [2],
+    camelcase: [0],
   },
   settings: {
     polyfills: ['fetch', 'promises', 'url'],

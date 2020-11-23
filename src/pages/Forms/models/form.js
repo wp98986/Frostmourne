@@ -1,4 +1,5 @@
-import { routerRedux } from 'dva/router';
+// eslint-disable-next-line import/no-extraneous-dependencies
+import { router } from 'dva';
 import { message } from 'antd';
 import { fakeSubmitForm } from '@/services/api';
 
@@ -25,7 +26,7 @@ export default {
         type: 'saveStepFormData',
         payload,
       });
-      yield put(routerRedux.push('/form/step-form/result'));
+      yield put(router.routerRedux.push('/form/step-form/result'));
     },
     *submitAdvancedForm({ payload }, { call }) {
       yield call(fakeSubmitForm, payload);

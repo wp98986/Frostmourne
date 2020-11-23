@@ -1,7 +1,6 @@
 import React, { Component, Fragment } from 'react';
-import { connect } from 'dva';
-import router from 'umi/router';
-import { formatMessage, FormattedMessage } from 'umi/locale';
+import { connect, history, formatMessage, FormattedMessage } from 'umi';
+
 import Login from '@/components/Login';
 import { List, message, Modal } from 'antd';
 // import { getTimeDistance } from '@/utils/utils';
@@ -62,7 +61,7 @@ class SecurityView extends Component {
             dispatch({
               type: 'login/logout',
             });
-            router.push('/user');
+            history.push('/user');
           } else {
             message.error(`修改失败，${msg}`);
           }

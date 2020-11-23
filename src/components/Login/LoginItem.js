@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
+import { formatMessage } from 'umi';
 import { Form } from '@ant-design/compatible';
 import '@ant-design/compatible/assets/index.css';
 import { Input, Button, Row, Col } from 'antd';
-import { formatMessage } from 'umi/locale';
 import AreaSelect from '@/components/AreaSelect';
 import OrgConstant from '@/constants/OrgConstant';
 import SelectEnum from '@/components/SelectEnum';
@@ -134,7 +134,10 @@ class WrapFormItem extends Component {
     if (type === 'OrgType') {
       return (
         <FormItem>
-          {getFieldDecorator(name, options)(
+          {getFieldDecorator(
+            name,
+            options
+          )(
             <SelectEnum
               className={styles.select}
               data={siteOrgTypeEnum}

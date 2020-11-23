@@ -3,7 +3,7 @@ import { Form, Icon as LegacyIcon } from '@ant-design/compatible';
 import '@ant-design/compatible/assets/index.css';
 import { ExclamationCircleOutlined } from '@ant-design/icons';
 import { Card, Button, Col, Row, DatePicker, TimePicker, Input, Select, Popover } from 'antd';
-import { connect } from 'dva';
+import { connect } from 'umi';
 import FooterToolbar from '@/components/FooterToolbar';
 import PageHeaderWrapper from '@/components/PageHeaderWrapper';
 import TableForm from './TableForm';

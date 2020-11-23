@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { connect } from 'dva';
+import { connect } from 'umi';
 import { Row, Col } from 'antd';
 import ChangePhoneNoModal from './ChangePhoneNoModal';
 import DealPwdModal from './DealPwdModal';

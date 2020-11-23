@@ -1,13 +1,12 @@
 import React, { PureComponent } from 'react';
-import { formatMessage } from 'umi/locale';
+import { connect, history, formatMessage } from 'umi';
 import { Layout, message, notification } from 'antd';
 import Animate from 'rc-animate';
-import { connect } from 'dva';
-import router from 'umi/router';
+
 import GlobalHeader from '@/components/GlobalHeader';
 import TopNavHeader from '@/components/TopNavHeader';
-import styles from './Header.less';
 import Authorized from '@/utils/Authorized';
+import styles from './Header.less';
 
 const { Header } = Layout;
 
@@ -110,7 +109,7 @@ class HeaderView extends PureComponent {
             type: 'global/noticesCount',
             payload: { status: 'unRead' },
           });
-          router.push('/');
+          history.push('/');
         } else {
           message.error(`切换失败，${data.message}`);
         }
@@ -121,19 +120,19 @@ class HeaderView extends PureComponent {
   handleMenuClick = ({ key }) => {
     const { dispatch } = this.props;
     if (key === 'orgInfo') {
-      router.push('/basic/org/department');
+      history.push('/basic/org/department');
       return;
     }
     if (key === 'triggerError') {
-      router.push('/exception/trigger');
+      history.push('/exception/trigger');
       return;
     }
     if (key === 'userinfo') {
-      router.push('/basic/settings/personal');
+      history.push('/basic/settings/personal');
       return;
     }
     if (key === 'modpwd') {
-      router.push('/user/modpwd');
+      history.push('/user/modpwd');
       return;
     }
     if (key === 'logout') {

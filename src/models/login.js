@@ -1,5 +1,5 @@
 // import { routerRedux } from 'dva/router';
-import router from 'umi/router';
+import { history } from 'umi';
 // import { stringify } from 'qs';
 import { login, sendMsg } from '@/services/login';
 import { setAuthority } from '@/utils/authority';
@@ -59,7 +59,7 @@ export default {
       if (fresh) {
         window.location.reload();
       } else {
-        router.push('/user/login');
+        history.push('/user/login');
         // yield put(
         //   routerRedux.push({
         //     pathname: '/user/login',

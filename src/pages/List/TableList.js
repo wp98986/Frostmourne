@@ -1,5 +1,5 @@
 import React, { PureComponent, Fragment } from 'react';
-import { connect } from 'dva';
+import { connect } from 'umi';
 import moment from 'moment';
 import { DownOutlined, PlusOutlined, UpOutlined } from '@ant-design/icons';
 import { Form } from '@ant-design/compatible';
@@ -635,7 +635,11 @@ class TableList extends PureComponent {
           <div className={styles.tableList}>
             <div className={styles.tableListForm}>{this.renderForm()}</div>
             <div className={styles.tableListOperator}>
-              <Button icon={<PlusOutlined />} type="primary" onClick={() => this.handleModalVisible(true)}>
+              <Button
+                icon={<PlusOutlined />}
+                type="primary"
+                onClick={() => this.handleModalVisible(true)}
+              >
                 新建
               </Button>
               {selectedRows.length > 0 && (

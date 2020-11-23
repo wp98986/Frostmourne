@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 import { findDOMNode } from 'react-dom';
 import moment from 'moment';
-import { connect } from 'dva';
+import { connect } from 'umi';
 import { DownOutlined, PlusOutlined } from '@ant-design/icons';
 import { Form } from '@ant-design/compatible';
 import '@ant-design/compatible/assets/index.css';

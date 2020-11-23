@@ -1,7 +1,7 @@
 /* eslint-disable */
 import moment from 'moment';
 import React from 'react';
-import router from 'umi/router';
+import { history } from 'umi';
 import nzh from 'nzh/cn';
 import { parse, stringify } from 'qs';
 
@@ -388,7 +388,7 @@ export function goBack(path) {
   if (key) {
     router.goBack();
   } else {
-    router.push(path);
+    history.push(path);
   }
 }
 

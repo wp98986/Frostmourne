@@ -1,8 +1,8 @@
 import React, { Component, Fragment } from 'react';
 import Debounce from 'lodash-decorators/debounce';
 import Bind from 'lodash-decorators/bind';
-import { connect } from 'dva';
-import router from 'umi/router';
+import { connect, history } from 'umi';
+
 import { Button, Card, message } from 'antd';
 import DescriptionList from '@/components/DescriptionList';
 import PageHeaderWrapper from '@/components/PageHeaderWrapper';
@@ -64,7 +64,7 @@ class RoleView extends Component {
 
   toEdit = () => {
     const id = this.getId();
-    router.push(`/setting/role/edit/${id}`);
+    history.push(`/setting/role/edit/${id}`);
   };
 
   delete = () => {
@@ -77,7 +77,7 @@ class RoleView extends Component {
         const { data: res } = result;
         if (res.code === '203') {
           message.success('删除成功');
-          router.push(`/setting/role`);
+          history.push(`/setting/role`);
         } else {
           let msg = res.message;
           if (!msg) msg = '';

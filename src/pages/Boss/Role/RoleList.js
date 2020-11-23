@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
-import { connect } from 'dva';
-import router from 'umi/router';
+import { connect, history } from 'umi';
+
 import moment from 'moment';
 import { DownOutlined, PlusOutlined, UpOutlined } from '@ant-design/icons';
 import { Form } from '@ant-design/compatible';
@@ -148,11 +148,11 @@ class RoleList extends PureComponent {
   };
 
   toAdd = () => {
-    router.push('/setting/role/add');
+    history.push('/setting/role/add');
   };
 
   toView = id => {
-    router.push(VIEW_PATH + id);
+    history.push(VIEW_PATH + id);
   };
 
   renderSimpleForm() {

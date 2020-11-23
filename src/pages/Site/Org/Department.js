@@ -25,7 +25,7 @@ import {
   message,
   Popover,
 } from 'antd';
-import { connect } from 'dva';
+import { connect } from 'umi';
 import StandardTable from '@/components/StandardTable';
 import DeptSelect from '@/components/DeptSelect';
 import BasicSelect from '@/components/BasicSelect';

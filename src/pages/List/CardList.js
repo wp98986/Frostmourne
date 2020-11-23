@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import { connect } from 'dva';
+import { connect } from 'umi';
 import { PlusOutlined } from '@ant-design/icons';
 import { Card, Button, List } from 'antd';
 

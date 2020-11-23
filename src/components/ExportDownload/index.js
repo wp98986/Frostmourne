@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { connect } from 'dva';
+import { connect } from 'umi';
 import moment from 'moment';
 import { Button, Modal, Progress, message } from 'antd';
 import StandardTable from '@/components/StandardTable';
@@ -19,17 +19,6 @@ class ExportDownload extends Component {
   state = {
     canLoad: true,
   };
-
-  UNSAFE_componentWillReceiveProps(nextProps) {
-    const { canLoad } = this.state;
-    const { exportModalVisible } = nextProps;
-    if (exportModalVisible && canLoad) {
-      this.loadList(1);
-      this.setState({
-        canLoad: false,
-      });
-    }
-  }
 
   loadList = page => {
     const { dispatch, downType } = this.props;
@@ -168,6 +157,17 @@ class ExportDownload extends Component {
     const { current } = pagination;
     this.loadList(current);
   };
+
+  UNSAFE_componentWillReceiveProps(nextProps) {
+    const { canLoad } = this.state;
+    const { exportModalVisible } = nextProps;
+    if (exportModalVisible && canLoad) {
+      this.loadList(1);
+      this.setState({
+        canLoad: false,
+      });
+    }
+  }
 
   render() {
     const { exportModalVisible, list, pagination } = this.props;

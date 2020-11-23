@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import { formatMessage, FormattedMessage } from 'umi/locale';
+import { formatMessage, FormattedMessage } from 'umi';
 import { AlipayOutlined, DingdingOutlined, TaobaoOutlined } from '@ant-design/icons';
 import { List } from 'antd';
 

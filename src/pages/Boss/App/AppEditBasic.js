@@ -1,7 +1,6 @@
 import React, { PureComponent, Fragment } from 'react';
-import { connect } from 'dva';
-import { formatMessage } from 'umi/locale';
-import router from 'umi/router';
+import { connect, history, formatMessage } from 'umi';
+
 import { Form } from '@ant-design/compatible';
 import '@ant-design/compatible/assets/index.css';
 import { Input, Button, Radio } from 'antd';
@@ -33,13 +32,6 @@ class AppEditBasic extends PureComponent {
     // if(data.router === 'second'){
     this.setBaseInfo(data);
     // }
-  }
-
-  UNSAFE_componentWillReceiveProps(nextProps) {
-    const { data } = this.props;
-    if (JSON.stringify(data) !== JSON.stringify(nextProps.data)) {
-      this.setBaseInfo(nextProps.data);
-    }
   }
 
   setBaseInfo = data => {
@@ -101,6 +93,13 @@ class AppEditBasic extends PureComponent {
     return initialValue;
   };
 
+  UNSAFE_componentWillReceiveProps(nextProps) {
+    const { data } = this.props;
+    if (JSON.stringify(data) !== JSON.stringify(nextProps.data)) {
+      this.setBaseInfo(nextProps.data);
+    }
+  }
+
   render() {
     const { form, data, dispatch } = this.props;
     const { getFieldDecorator, validateFields } = form;
@@ -120,9 +119,9 @@ class AppEditBasic extends PureComponent {
             payload,
           });
           if (this.getId()) {
-            router.push(`/setting/app/edit/advanced/${this.getId()}`);
+            history.push(`/setting/app/edit/advanced/${this.getId()}`);
           } else {
-            router.push(`/setting/app/add/advanced`);
+            history.push(`/setting/app/add/advanced`);
           }
         }
       });

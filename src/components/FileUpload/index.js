@@ -12,17 +12,6 @@ class FileUpload extends Component {
     };
   }
 
-  UNSAFE_componentWillReceiveProps() {
-    const { canRec } = this.state;
-    const { initialValue } = this.props;
-    if (initialValue && canRec) {
-      this.setState({
-        fileList: initialValue,
-        canRec: false,
-      });
-    }
-  }
-
   setFileList = data => {
     this.setState({
       fileList: data,
@@ -60,6 +49,17 @@ class FileUpload extends Component {
     }
     this.setState({ fileList });
   };
+
+  UNSAFE_componentWillReceiveProps() {
+    const { canRec } = this.state;
+    const { initialValue } = this.props;
+    if (initialValue && canRec) {
+      this.setState({
+        fileList: initialValue,
+        canRec: false,
+      });
+    }
+  }
 
   render() {
     const { fileList } = this.state;

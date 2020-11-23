@@ -1,5 +1,5 @@
 import React, { PureComponent, Fragment } from 'react';
-import { connect } from 'dva';
+import { connect } from 'umi';
 import moment from 'moment';
 import { DownOutlined, PlusOutlined, UpOutlined } from '@ant-design/icons';
 import { Form } from '@ant-design/compatible';

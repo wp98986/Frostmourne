@@ -1,40 +1,42 @@
 // https://umijs.org/config/
+import { utils } from 'umi';
 import path from 'path';
-
 import bossRoutes from './boss.router';
 import siteRoutes from './site.router';
 import webpackPlugin from './plugin.config';
 import defaultSettings from '../src/defaultSettings';
 
-const plugins = [
-  [
-    'umi-plugin-react',
-    {
-      antd: true,
-      dva: {
-        hmr: true,
-      },
-      locale: {
-        enable: true, // default false
-        default: 'zh-CN', // default zh-CN
-        baseNavigator: true, // default true, when it is true, will use `navigator.language` overwrite default
-      },
-      dynamicImport: {
-        webpackChunkName: true,
-        loadingComponent: './components/PageLoading/index',
-      },
-      ...(!process.env.TEST
-        ? {
-            dll: {
-              include: ['dva', 'dva/router', 'dva/saga', 'dva/fetch'],
-              exclude: ['@babel/runtime'],
-            },
-            // hardSource: true,
-          }
-        : {}),
-    },
-  ],
-];
+const { winPath } = utils;
+
+// const plugins = [
+//   [
+//     'umi-plugin-react',
+//     {
+//       antd: true,
+//       dva: {
+//         hmr: true,
+//       },
+//       locale: {
+//         enable: true, // default false
+//         default: 'zh-CN', // default zh-CN
+//         baseNavigator: true, // default true, when it is true, will use `navigator.language` overwrite default
+//       },
+//       dynamicImport: {
+//         webpackChunkName: true,
+//         loadingComponent: './components/PageLoading/index',
+//       },
+//       ...(!process.env.TEST
+//         ? {
+//             dll: {
+//               include: ['dva', 'dva/router', 'dva/saga', 'dva/fetch'],
+//               exclude: ['@babel/runtime'],
+//             },
+//             // hardSource: true,
+//           }
+//         : {}),
+//     },
+//   ],
+// ];
 
 const routesMap = {
   site: siteRoutes,
@@ -82,7 +84,28 @@ const externalJs = contextMap[process.env.APP_TYPE].externalJs || defaultJs;
 const externalCss = contextMap[process.env.APP_TYPE].externalCss || defaultCss;
 export default {
   // add for transfer to umi
-  plugins,
+  antd: {},
+  dva: {
+    hmr: true,
+  },
+  locale: {
+    // enable: true, // default false
+    default: 'zh-CN', // default zh-CN
+    baseNavigator: true, // default true, when it is true, will use `navigator.language` overwrite default
+  },
+  dynamicImport: {
+    // webpackChunkName: true,
+    loading: '@/components/PageLoading/index',
+  },
+  // ...(!process.env.TEST
+  //   ? {
+  //       dll: {
+  //         include: ['dva', 'dva/router', 'dva/saga', 'dva/fetch'],
+  //         exclude: ['@babel/runtime'],
+  //       },
+  //       // hardSource: true,
+  //     }
+  //   : {}),
   targets: {
     ie: 9,
   },
@@ -97,8 +120,8 @@ export default {
   // https://ant.design/docs/react/customize-theme-cn
   theme: {
     'primary-color': defaultSettings.primaryColor,
-    'fixed-header': defaultSettings.fixedHeader,
-    fixedHeader: defaultSettings.fixedHeader,
+    // 'fixed-header': defaultSettings.fixedHeader,
+    // fixedHeader: defaultSettings.fixedHeader,
   },
   externals: {
     // '@antv/data-set': 'DataSet',
@@ -107,36 +130,34 @@ export default {
     // mta,
     // meiqia,
   },
-  context: {
-    title,
-    favicon,
-  },
+  title,
+  favicon,
   ignoreMomentLocale: true,
-  lessLoaderOptions: {
+  lessLoader: {
     javascriptEnabled: true,
   },
-  disableRedirectHoist: true,
-  cssLoaderOptions: {
-    modules: true,
-    getLocalIdent: (context, localIdentName, localName) => {
-      if (
-        context.resourcePath.includes('node_modules') ||
-        context.resourcePath.includes('ant.design.pro.less') ||
-        context.resourcePath.includes('global.less')
-      ) {
+  // disableRedirectHoist: true,
+  cssLoader: {
+    modules: {
+      getLocalIdent: (context, _, localName) => {
+        if (
+          context.resourcePath.includes('node_modules') ||
+          context.resourcePath.includes('ant.design.pro.less') ||
+          context.resourcePath.includes('global.less')
+        ) {
+          return localName;
+        }
+        const match = context.resourcePath.match(/src(.*)/);
+        if (match && match[1]) {
+          const antdProPath = match[1].replace('.less', '');
+          const arr = winPath(antdProPath)
+            .split('/')
+            .map(a => a.replace(/([A-Z])/g, '-$1'))
+            .map(a => a.toLowerCase());
+          return `antd-pro${arr.join('-')}-${localName}`.replace(/--/g, '-');
+        }
         return localName;
-      }
-      const match = context.resourcePath.match(/src(.*)/);
-      if (match && match[1]) {
-        const antdProPath = match[1].replace('.less', '');
-        const arr = antdProPath
-          .replace(/\\/g, '/')
-          .split('/')
-          .map(a => a.replace(/([A-Z])/g, '-$1'))
-          .map(a => a.toLowerCase());
-        return `antd-pro${arr.join('-')}-${localName}`.replace(/--/g, '-');
-      }
-      return localName;
+      },
     },
   },
   manifest: {

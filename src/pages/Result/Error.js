@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { formatMessage, FormattedMessage } from 'umi/locale';
+import { formatMessage, FormattedMessage } from 'umi';
 import { CloseCircleOutlined, RightOutlined } from '@ant-design/icons';
 import { Button, Card } from 'antd';
 import Result from '@/components/Result';

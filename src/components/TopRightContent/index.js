@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Link from 'umi/link';
+import { Link } from 'umi';
 // import { Select } from 'antd';
 import styles from './index.less';
 

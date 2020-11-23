@@ -15,17 +15,6 @@ class PhotoUpload extends Component {
     };
   }
 
-  UNSAFE_componentWillReceiveProps(nextProps) {
-    const { initialValue = [] } = nextProps;
-    const { canRec } = this.state;
-    if (canRec && initialValue.length !== 0) {
-      this.setState({
-        fileList: initialValue,
-        canRec: false,
-      });
-    }
-  }
-
   setFileList = data => {
     this.setState({
       fileList: data,
@@ -93,6 +82,17 @@ class PhotoUpload extends Component {
     }
     this.setState({ fileList: newFileList });
   };
+
+  UNSAFE_componentWillReceiveProps(nextProps) {
+    const { initialValue = [] } = nextProps;
+    const { canRec } = this.state;
+    if (canRec && initialValue.length !== 0) {
+      this.setState({
+        fileList: initialValue,
+        canRec: false,
+      });
+    }
+  }
 
   render() {
     const { previewVisible, previewImage, fileList } = this.state;

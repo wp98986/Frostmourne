@@ -1,10 +1,11 @@
 import React, { PureComponent } from 'react';
-import { formatMessage, setLocale, getLocale } from 'umi/locale';
+import { useIntl, setLocale, getLocale } from 'umi';
 import { GlobalOutlined } from '@ant-design/icons';
 import { Menu, Dropdown } from 'antd';
 import classNames from 'classnames';
 import styles from './index.less';
 
+const intl = useIntl();
 export default class SelectLang extends PureComponent {
   changeLang = ({ key }) => {
     setLocale(key);
@@ -45,7 +46,8 @@ export default class SelectLang extends PureComponent {
       <Dropdown overlay={langMenu} placement="bottomRight">
         <GlobalOutlined
           className={classNames(styles.dropDown, className)}
-          title={formatMessage({ id: 'navBar.lang' })} />
+          title={intl.formatMessage({ id: 'navBar.lang' })}
+        />
       </Dropdown>
     );
   }

@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import { connect } from 'dva';
-import { FormattedMessage } from 'umi/locale';
-// import Link from 'umi/link';
-import router from 'umi/router';
+import { connect, history, FormattedMessage } from 'umi';
+
 import { Alert, message, Modal } from 'antd';
 import Login from '@/components/Login';
 import styles from './Register.less';
@@ -85,7 +83,7 @@ class LoginPage extends Component {
                 title: '注册成功',
                 content: data.message,
               });
-              router.push('/');
+              history.push('/');
             } else {
               let msg = '';
               if (data.message) msg += `，${data.message}`;
@@ -106,7 +104,7 @@ class LoginPage extends Component {
                 title: '注册成功',
                 content: data.message,
               });
-              router.push('/');
+              history.push('/');
             } else {
               let msg = '';
               if (data.message) msg += `，${data.message}`;

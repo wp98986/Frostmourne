@@ -1,6 +1,7 @@
-import fetch from 'dva/fetch';
+// eslint-disable-next-line import/no-extraneous-dependencies
+import { fetch } from 'dva';
 import { notification } from 'antd';
-import router from 'umi/router';
+import { history } from 'umi';
 import hash from 'hash.js';
 import { isAntdPro } from './utils';
 
@@ -62,7 +63,7 @@ const checkStatus = response => {
             message = `${message}:${data}`;
           }
           if (httpCode === '401') {
-            router.push('/user');
+            history.push('/user');
             return;
           }
           throw notifyErrorMessage(response, httpCode, message);
@@ -199,35 +200,35 @@ export default function request(url, option) {
       //   notification.error({
       //     message: `登陆失败`,
       //   });
-      //   // router.push('/exception/403');
+      //   // history.push('/exception/403');
       //   return;
       // }
       // if (status === 402) {
       //   notification.error({
       //     message: `未登录`,
       //   });
-      //   // router.push('/exception/403');
+      //   // history.push('/exception/403');
       //   return;
       // }
       // if (status === 403) {
       //   notification.error({
       //     message: `没有权限`,
       //   });
-      //   // router.push('/exception/403');
+      //   // history.push('/exception/403');
       //   return;
       // }
       // if (status === 404) {
       //   notification.error({
       //     message: `请求不存在`,
       //   });
-      //   // router.push('/exception/403');
+      //   // history.push('/exception/403');
       //   return;
       // }
       // if (status === 409) {
       //   notification.error({
       //     message: `请求失败`,
       //   });
-      //   // router.push('/exception/403');
+      //   // history.push('/exception/403');
       //   return;
       // }
       // if (status === 500) {
@@ -237,7 +238,7 @@ export default function request(url, option) {
       //   return;
       // }
       if (status >= 404 && status < 422) {
-        // router.push('/exception/404');
+        // history.push('/exception/404');
       }
     });
 }

@@ -1,6 +1,5 @@
 import React, { PureComponent } from 'react';
-import { connect } from 'dva';
-import router from 'umi/router';
+import { connect, history } from 'umi';
 
 import {
   BlockOutlined,
@@ -49,30 +48,6 @@ class OrgInfo extends PureComponent {
     });
   }
 
-  UNSAFE_componentWillReceiveProps(nextProps) {
-    const { dispatch, currentUser } = nextProps;
-    const { orgId } = this.state;
-    this.setState({
-      activeTabKey: window.location.href.substring(window.location.href.lastIndexOf('/') + 1),
-    });
-    let id;
-    if (this.getId()) {
-      id = this.getId();
-    } else {
-      id = get(currentUser, 'data.org.id');
-    }
-    const hasId = id === orgId;
-    if (!hasId) {
-      dispatch({
-        type: 'orgInfo/fetchView',
-        payload: { id },
-      });
-      this.setState({
-        orgId: id,
-      });
-    }
-  }
-
   handleStandardTableChange = pagination => {
     const {
       dispatch,
@@ -115,10 +90,10 @@ class OrgInfo extends PureComponent {
     const { match } = this.props;
     switch (key) {
       case 'department':
-        router.push(`${match.url}/department`);
+        history.push(`${match.url}/department`);
         break;
       case 'paypwd':
-        router.push(`${match.url}/paypwd`);
+        history.push(`${match.url}/paypwd`);
         break;
       default:
         break;
@@ -195,6 +170,30 @@ class OrgInfo extends PureComponent {
     });
   };
 
+  UNSAFE_componentWillReceiveProps(nextProps) {
+    const { dispatch, currentUser } = nextProps;
+    const { orgId } = this.state;
+    this.setState({
+      activeTabKey: window.location.href.substring(window.location.href.lastIndexOf('/') + 1),
+    });
+    let id;
+    if (this.getId()) {
+      id = this.getId();
+    } else {
+      id = get(currentUser, 'data.org.id');
+    }
+    const hasId = id === orgId;
+    if (!hasId) {
+      dispatch({
+        type: 'orgInfo/fetchView',
+        payload: { id },
+      });
+      this.setState({
+        orgId: id,
+      });
+    }
+  }
+
   render() {
     // const { newTags, inputVisible, inputValue } = this.state;
     const {
@@ -204,7 +203,7 @@ class OrgInfo extends PureComponent {
       // projectLoading,
       currentUser: { data: { pages = [] } = {} } = {},
       route,
-      route: { platFlag } = {},
+      // route: { platFlag } = {},
       children,
     } = this.props;
     const buttons = getBtns(pages, route);

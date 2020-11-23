@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
-// import { formatMessage } from 'umi/locale';
-import Link from 'umi/link';
+// import { formatMessage } from 'umi';
+import { Link } from 'umi';
 import { CopyrightOutlined } from '@ant-design/icons';
 import GlobalFooter from '@/components/GlobalFooter';
 import SelectLang from '@/components/SelectLang';

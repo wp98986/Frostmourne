@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
-import { connect } from 'dva';
-import router from 'umi/router';
+import { connect, history } from 'umi';
+
 import { Card, Table, Button, message, Modal } from 'antd';
 import DescriptionList from '@/components/DescriptionList';
 import PageHeaderWrapper from '@/components/PageHeaderWrapper';
@@ -69,7 +69,7 @@ class PropertyBagView extends Component {
 
   toEdit = () => {
     const id = this.getId();
-    router.push(`/setting/propertybag/edit/${id}`);
+    history.push(`/setting/propertybag/edit/${id}`);
   };
 
   del = () => {
@@ -88,7 +88,7 @@ class PropertyBagView extends Component {
             const { data } = result;
             if (data.code === '203') {
               message.success('删除成功');
-              router.push('/setting/propertybag');
+              history.push('/setting/propertybag');
             } else {
               let msg = '';
               if (data.message) msg = `，${data.message}`;
